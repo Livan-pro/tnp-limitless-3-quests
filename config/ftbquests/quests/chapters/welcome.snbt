@@ -1,0 +1,446 @@
+{
+	id: "0000000000000440"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "{ftbquests.custom_quests.welcome.title}"
+	icon: "cyclic:heart"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: []
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: []
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -2.65d
+			width: 2.0d
+			height: 0.75d
+			rotation: 0.0d
+			image: "kubejs:textures/other/read__me.png"
+			hover: []
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.63d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.0.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.0.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.6}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.7}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.8}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.9}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.10}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.11}"
+				"{ftbquests.custom_quests.welcome.quests.0.description.12}"
+			]
+			size: 1.5d
+			id: "0000000000000441"
+			tasks: [
+				{
+					id: "0000000000000442"
+					type: "checkmark"
+					title: "Welcome to TNP Limitless 3!"
+					icon: "cyclic:heart"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000BE3"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: { id: "kubejs:limitless_sword", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0000000000000BE4"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: { id: "minecraft:leather_helmet", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0000000000000BE5"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: { id: "minecraft:leather_chestplate", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0000000000000BE6"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: { id: "minecraft:leather_leggings", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0000000000000BE7"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: { id: "minecraft:leather_boots", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0000000000000BE8"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "minecraft:apple"
+					count: 12
+				}
+				{
+					id: "0000000000000BE9"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "backpacked:backpack"
+				}
+			]
+		}
+		{
+			icon: "kubejs:inv_icon"
+			x: -1.5d
+			y: 0.1d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.1.subtitle}"
+			description: ["{ftbquests.custom_quests.welcome.quests.1.description.0}"]
+			dependencies: ["0000000000000441"]
+			optional: true
+			id: "0000000000000444"
+			tasks: [
+				{
+					id: "0000000000000445"
+					type: "checkmark"
+					title: "Inventory Tweaks"
+					icon: "minecraft:chest"
+					disable_toast: true
+				}
+			]
+		}
+		{
+			icon: "kubejs:search_chest_icon"
+			x: 0.99d
+			y: -0.54d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.2.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.2.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.2.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.2.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.2.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.2.description.4}"
+			]
+			dependencies: ["0000000000000441"]
+			size: 0.9d
+			optional: true
+			id: "0000000000000447"
+			tasks: [
+				{
+					id: "784E0C7C5301F2C6"
+					type: "checkmark"
+					title: "Chest Searching"
+					icon: "minecraft:chest"
+				}
+			]
+		}
+		{
+			icon: "kubejs:ctweaks_icon"
+			x: -1.5d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.3.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.3.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.6}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.7}"
+				"{ftbquests.custom_quests.welcome.quests.3.description.8}"
+			]
+			dependencies: ["0000000000000441"]
+			optional: true
+			id: "000000000000044A"
+			tasks: [
+				{
+					id: "000000000000044B"
+					type: "checkmark"
+					title: "Crafting Tweaks"
+					icon: "minecraft:crafting_table"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000107C"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "vanillatweaks:pad"
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.welcome.quests.4.title}"
+			icon: "kubejs:trash_icon"
+			x: 1.5d
+			y: 0.1d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.4.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.4.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.4.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.4.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.4.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.4.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.4.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.4.description.6}"
+			]
+			dependencies: ["0000000000000441"]
+			optional: true
+			id: "000000000000044D"
+			tasks: [{ id: "000000000000044E", type: "checkmark", icon: "rats:trash_can" }]
+			rewards: [
+				{
+					id: "000000000000044F"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.91d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.5.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.5.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.6}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.7}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.8}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.9}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.10}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.11}"
+				"{ftbquests.custom_quests.welcome.quests.5.description.12}"
+			]
+			dependencies: ["0000000000000441"]
+			size: 1.22d
+			optional: true
+			id: "0000000000000453"
+			tasks: [
+				{
+					id: "0000000000000454"
+					type: "checkmark"
+					title: "Chunk Claiming"
+					icon: "kubejs:chunk_claim_icon"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.6.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.6.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.6.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.6.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.6.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.6.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.6.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.6.description.6}"
+			]
+			dependencies: ["0000000000000441"]
+			optional: true
+			id: "0000000000000456"
+			tasks: [
+				{
+					id: "0000000000000457"
+					type: "checkmark"
+					title: "Curious"
+					icon: "curios:ring"
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.welcome.quests.7.title}"
+			icon: "kubejs:mute_icon"
+			x: -0.9450000000000001d
+			y: -0.54d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.7.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.7.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.6}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.7}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.8}"
+				"{ftbquests.custom_quests.welcome.quests.7.description.9}"
+			]
+			dependencies: ["0000000000000441"]
+			size: 0.9d
+			optional: true
+			id: "0000000000000460"
+			tasks: [{ id: "0000000000000461", type: "checkmark", title: "Sound Muffling" }]
+		}
+		{
+			icon: "kubejs:keybind_icon"
+			x: 1.0d
+			y: 1.85d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.8.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.8.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.8.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.8.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.8.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.8.description.4}"
+			]
+			dependencies: ["0000000000000441"]
+			size: 0.9d
+			optional: true
+			id: "0000000000000BF1"
+			tasks: [
+				{
+					id: "0000000000000BF2"
+					type: "checkmark"
+					title: "Keybinds"
+					icon: "minecraft:stone_button"
+				}
+			]
+		}
+		{
+			icon: "solcarrot:food_book"
+			x: -1.0d
+			y: 1.85d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.9.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.9.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.6}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.7}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.8}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.9}"
+				"{ftbquests.custom_quests.welcome.quests.9.description.10}"
+			]
+			dependencies: ["0000000000000441"]
+			size: 0.9d
+			optional: true
+			id: "0000000000000CDB"
+			tasks: [
+				{
+					id: "0000000000000CDC"
+					type: "checkmark"
+					title: "Spice of Life: Carrot Edition"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000CDD"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "solcarrot:food_book"
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.welcome.quests.10.title}"
+			icon: "botania:cosmetic_questgiver_mark"
+			disable_toast: true
+			x: 0.0d
+			y: -2.0625d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.10.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.10.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.6}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.7}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.8}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.9}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.10}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.11}"
+				"{ftbquests.custom_quests.welcome.quests.10.description.12}"
+			]
+			optional: true
+			id: "0322DE4408C9EA6B"
+		}
+		{
+			icon: "astralsorcery:hand_telescope"
+			x: 0.0d
+			y: 2.1875d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.welcome.quests.11.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.welcome.quests.11.description.0}"
+				"{ftbquests.custom_quests.welcome.quests.11.description.1}"
+				"{ftbquests.custom_quests.welcome.quests.11.description.2}"
+				"{ftbquests.custom_quests.welcome.quests.11.description.3}"
+				"{ftbquests.custom_quests.welcome.quests.11.description.4}"
+				"{ftbquests.custom_quests.welcome.quests.11.description.5}"
+				"{ftbquests.custom_quests.welcome.quests.11.description.6}"
+				"{ftbquests.custom_quests.welcome.quests.11.description.7}"
+			]
+			dependencies: ["0000000000000441"]
+			size: 1.2d
+			optional: true
+			id: "3BE352C1E48C91D8"
+			tasks: [{ id: "3E1D8F8302EF345C", type: "checkmark", title: "Zooming Mod" }]
+		}
+	]
+}

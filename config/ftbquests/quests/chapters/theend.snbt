@@ -1,0 +1,283 @@
+{
+	id: "00000000000000ED"
+	group: ""
+	order_index: 3
+	filename: "theend"
+	title: "{ftbquests.custom_quests.theend.title}"
+	icon: "minecraft:end_stone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.theend.quests.0.subtitle}"
+			id: "00000000000000EE"
+			tasks: [
+				{
+					id: "00000000000000EF"
+					type: "advancement"
+					title: "Or the beginning?"
+					icon: "minecraft:end_stone"
+					disable_toast: true
+					advancement: "minecraft:end/root"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "0000000000000414", type: "xp_levels", auto: "no_toast", xp_levels: 1 }
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "{ftbquests.custom_quests.theend.quests.1.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.1.description.0}"]
+			id: "00000000000000F0"
+			tasks: [
+				{
+					id: "00000000000000F1"
+					type: "advancement"
+					title: "Free the End"
+					icon: "minecraft:dragon_head"
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000B6E"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 4
+				}
+				{ id: "0000000000000BBB", type: "xp_levels", auto: "no_toast", xp_levels: 25 }
+				{
+					id: "0000000000001027"
+					type: "item"
+					item: "minecraft:enderman_spawn_egg"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "{ftbquests.custom_quests.theend.quests.2.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.2.description.0}"]
+			id: "00000000000000F2"
+			tasks: [
+				{
+					id: "00000000000000F3"
+					type: "advancement"
+					title: "Remote Getaway"
+					icon: "minecraft:ender_pearl"
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001028"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 4
+				}
+				{ id: "0000000000001029", type: "item", item: "minecraft:diamond", count: 2 }
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.theend.quests.3.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.3.description.0}"]
+			id: "00000000000000F4"
+			tasks: [
+				{
+					id: "00000000000000F5"
+					type: "advancement"
+					title: "The End... Again..."
+					icon: "minecraft:end_crystal"
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000B74"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+				{
+					id: "0000000000000BD3"
+					type: "item"
+					item: { id: "minecraft:potion", Count: 1b, tag: { Potion: "minecraft:strength" } }
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "{ftbquests.custom_quests.theend.quests.4.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.4.description.0}"]
+			id: "00000000000000F6"
+			tasks: [
+				{
+					id: "00000000000000F7"
+					type: "advancement"
+					title: "You Need a Mint"
+					icon: "minecraft:dragon_breath"
+					advancement: "minecraft:end/dragon_breath"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "0000000000000C09", type: "item", item: "minecraft:water_bucket" }
+				{
+					id: "0000000000000C0A"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "{ftbquests.custom_quests.theend.quests.5.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.5.description.0}"]
+			optional: true
+			id: "00000000000000F8"
+			tasks: [
+				{
+					id: "00000000000000F9"
+					type: "advancement"
+					title: "The Next Generation"
+					icon: "minecraft:dragon_egg"
+					advancement: "minecraft:end/dragon_egg"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000BAB"
+					type: "item"
+					item: "minecraft:enderman_spawn_egg"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			subtitle: "{ftbquests.custom_quests.theend.quests.6.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.theend.quests.6.description.0}"
+				"{ftbquests.custom_quests.theend.quests.6.description.1}"
+				"{ftbquests.custom_quests.theend.quests.6.description.2}"
+			]
+			id: "00000000000000FA"
+			tasks: [
+				{
+					id: "00000000000000FB"
+					type: "advancement"
+					title: "The City at the End of the Game"
+					icon: "minecraft:purpur_block"
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "0000000000000B71", type: "xp_levels", auto: "no_toast", xp_levels: 5 }
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "{ftbquests.custom_quests.theend.quests.7.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.7.description.0}"]
+			id: "00000000000000FC"
+			tasks: [
+				{
+					id: "00000000000000FD"
+					type: "advancement"
+					title: "Sky's the Limit"
+					icon: { id: "minecraft:elytra", Count: 1b, tag: { Damage: 0 } }
+					advancement: "minecraft:end/elytra"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000B70"
+					type: "item"
+					item: "minecraft:phantom_membrane"
+					count: 8
+				}
+				{ id: "0000000000000BB8", type: "item", item: "minecraft:gold_block" }
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "{ftbquests.custom_quests.theend.quests.8.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.8.description.0}"]
+			id: "00000000000000FE"
+			tasks: [
+				{
+					id: "00000000000000FF"
+					type: "advancement"
+					title: "Great View From Up Here"
+					icon: "minecraft:shulker_shell"
+					advancement: "minecraft:end/levitate"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000B6F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: { Potion: "minecraft:long_slow_falling" }
+					}
+				}
+				{ id: "0000000000000BB9", type: "item", item: "minecraft:iron_block" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.theend.quests.9.title}"
+			x: 3.0d
+			y: -2.5d
+			subtitle: "{ftbquests.custom_quests.theend.quests.9.subtitle}"
+			description: ["{ftbquests.custom_quests.theend.quests.9.description.0}"]
+			id: "0000000000000CDE"
+			tasks: [
+				{
+					id: "0000000000000CDF"
+					type: "kill"
+					icon: { id: "minecraft:shulker_box", Count: 1b, tag: { BlockEntityTag: {  } } }
+					entity: "minecraft:shulker"
+					value: 1l
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000CE0"
+					type: "item"
+					item: { id: "craftandhunt:shulker_sword", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0000000000000CE1"
+					type: "item"
+					item: "minecraft:shulker_shell"
+					count: 2
+				}
+			]
+		}
+	]
+}

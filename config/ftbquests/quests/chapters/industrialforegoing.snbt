@@ -1,0 +1,1367 @@
+{
+	id: "00000000000002A1"
+	group: ""
+	order_index: 7
+	filename: "industrialforegoing"
+	title: "{ftbquests.custom_quests.industrialforegoing.title}"
+	icon: "industrialforegoing:block_placer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -5.52d
+			width: 0.6d
+			height: 0.6d
+			rotation: 0.0d
+			image: "kubejs:textures/other/quest-tnp.png"
+			hover: ["Questline by: TNP Team, Gbergz."]
+			click: "https://www.curseforge.com/members/nexusproject/projects"
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.0.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.0.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.0.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.0.description.2}"
+			]
+			size: 1.5d
+			id: "00000000000002A6"
+			tasks: [
+				{
+					id: "00000000000002A7"
+					type: "item"
+					item: "industrialforegoing:machine_frame_pity"
+				}
+			]
+			rewards: [{ id: "00000000000008CB", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.1.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.1.description.0}"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002AC"
+			tasks: [
+				{
+					id: "00000000000002AD"
+					type: "item"
+					item: "industrialforegoing:animal_rancher"
+				}
+			]
+			rewards: [{ id: "00000000000008CC", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.2.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.2.description.0}"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002AE"
+			tasks: [
+				{
+					id: "00000000000002AF"
+					type: "item"
+					item: "industrialforegoing:plant_gatherer"
+				}
+			]
+			rewards: [{ id: "00000000000008CD", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.3.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.3.description.0}"]
+			dependencies: ["0000000000000321", "0000000000000319"]
+			id: "00000000000002B0"
+			tasks: [
+				{
+					id: "00000000000002B1"
+					type: "item"
+					item: "industrialforegoing:plant_fertilizer"
+				}
+			]
+			rewards: [{ id: "00000000000008CE", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.4.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.4.description.0}"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B2"
+			tasks: [
+				{
+					id: "00000000000002B3"
+					type: "item"
+					item: "industrialforegoing:plant_sower"
+				}
+			]
+			rewards: [{ id: "00000000000008CF", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.5.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.5.description.0}"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B4"
+			tasks: [
+				{
+					id: "00000000000002B5"
+					type: "item"
+					item: "industrialforegoing:animal_feeder"
+				}
+			]
+			rewards: [{ id: "00000000000008D0", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.6.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.6.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.6.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.6.description.2}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B6"
+			tasks: [
+				{
+					id: "00000000000002B7"
+					type: "item"
+					item: "industrialforegoing:mob_slaughter_factory"
+				}
+			]
+			rewards: [{ id: "00000000000008D1", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.7.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.7.description.0}"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002B8"
+			tasks: [
+				{ id: "00000000000002B9", type: "item", item: "industrialforegoing:sewer" }
+			]
+			rewards: [{ id: "00000000000008D2", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.8.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.8.description.0}"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002BA"
+			tasks: [
+				{
+					id: "00000000000002BB"
+					type: "item"
+					item: "industrialforegoing:sewage_composter"
+				}
+			]
+			rewards: [{ id: "00000000000008D3", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.9.subtitle}"
+			description: ["{ftbquests.custom_quests.industrialforegoing.quests.9.description.0}"]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002BC"
+			tasks: [
+				{
+					id: "00000000000002BD"
+					type: "item"
+					item: "industrialforegoing:animal_baby_separator"
+				}
+			]
+			rewards: [{ id: "00000000000008D4", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.10.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.10.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.10.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.10.description.2}"
+			]
+			dependencies: ["00000000000002A6", "00000000000002C0"]
+			id: "00000000000002BE"
+			tasks: [
+				{
+					id: "00000000000002BF"
+					type: "item"
+					item: "industrialforegoing:latex_processing_unit"
+				}
+			]
+			rewards: [{ id: "00000000000008D5", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.11.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.11.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.11.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.11.description.2}"
+			]
+			dependencies: ["00000000000002A6"]
+			id: "00000000000002C0"
+			tasks: [
+				{
+					id: "00000000000002C1"
+					type: "item"
+					item: "industrialforegoing:fluid_extractor"
+				}
+			]
+			rewards: [{ id: "00000000000008D6", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.12.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.12.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C2"
+			tasks: [
+				{
+					id: "00000000000002C3"
+					type: "item"
+					item: "industrialforegoing:dissolution_chamber"
+				}
+			]
+			rewards: [{ id: "00000000000008D7", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.13.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.13.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C4"
+			tasks: [
+				{
+					id: "00000000000002C5"
+					type: "item"
+					item: "industrialforegoing:block_breaker"
+				}
+			]
+			rewards: [{ id: "00000000000008D8", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.14.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.14.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C6"
+			tasks: [
+				{
+					id: "00000000000002C7"
+					type: "item"
+					item: "industrialforegoing:biofuel_generator"
+				}
+			]
+			rewards: [{ id: "00000000000008D9", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.15.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.15.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002C8"
+			tasks: [
+				{
+					id: "00000000000002C9"
+					type: "item"
+					item: "industrialforegoing:bioreactor"
+				}
+			]
+			rewards: [{ id: "00000000000008DA", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.16.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.16.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002CA"
+			tasks: [
+				{
+					id: "00000000000002CB"
+					type: "item"
+					item: "industrialforegoing:spores_recreator"
+				}
+			]
+			rewards: [{ id: "00000000000008DB", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.17.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.17.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "00000000000002CC"
+			tasks: [
+				{
+					id: "00000000000002CD"
+					type: "item"
+					item: "industrialforegoing:material_stonework_factory"
+				}
+			]
+			rewards: [{ id: "00000000000008DC", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.18.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.18.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002CE"
+			tasks: [
+				{
+					id: "00000000000002CF"
+					type: "item"
+					item: "industrialforegoing:sludge_refiner"
+				}
+			]
+			rewards: [{ id: "00000000000008DD", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.19.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.19.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002D0"
+			tasks: [
+				{
+					id: "00000000000002D1"
+					type: "item"
+					item: "industrialforegoing:water_condensator"
+				}
+			]
+			rewards: [{ id: "00000000000008DE", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.20.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.20.description.0}"
+			]
+			dependencies: ["00000000000002A6", "00000000000002C2"]
+			id: "00000000000002D2"
+			tasks: [
+				{
+					id: "00000000000002D3"
+					type: "item"
+					item: "industrialforegoing:mechanical_dirt"
+				}
+			]
+			rewards: [{ id: "00000000000008DF", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.21.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.21.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002D6"
+			tasks: [
+				{
+					id: "00000000000002D7"
+					type: "item"
+					item: "industrialforegoing:dye_mixer"
+				}
+			]
+			rewards: [{ id: "00000000000008E0", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.22.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.22.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002D8"
+			tasks: [
+				{
+					id: "00000000000002D9"
+					type: "item"
+					item: "industrialforegoing:fluid_placer"
+				}
+			]
+			rewards: [{ id: "00000000000008E1", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.23.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.23.description.0}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "00000000000002DA"
+			tasks: [
+				{
+					id: "00000000000002DB"
+					type: "item"
+					item: "industrialforegoing:resourceful_furnace"
+				}
+			]
+			rewards: [{ id: "00000000000008E2", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.24.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.24.description.0}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "00000000000002DC"
+			tasks: [
+				{
+					id: "00000000000002DD"
+					type: "item"
+					item: "industrialforegoing:mob_detector"
+				}
+			]
+			rewards: [{ id: "00000000000008E3", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.25.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.25.description.0}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "00000000000002DE"
+			tasks: [
+				{
+					id: "00000000000002DF"
+					type: "item"
+					item: "industrialforegoing:marine_fisher"
+				}
+			]
+			rewards: [{ id: "00000000000008E4", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: 11.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.26.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.26.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "00000000000002E0"
+			tasks: [
+				{
+					id: "00000000000002E1"
+					type: "item"
+					item: "industrialforegoing:stasis_chamber"
+				}
+			]
+			rewards: [{ id: "00000000000008E5", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.27.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.27.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.27.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.27.description.2}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000000319"
+			tasks: [
+				{
+					id: "000000000000031A"
+					type: "item"
+					item: "industrialforegoing:machine_frame_simple"
+				}
+			]
+			rewards: [{ id: "00000000000008E6", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.28.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.28.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.28.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.28.description.2}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.28.description.3}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.28.description.4}"
+			]
+			dependencies: ["00000000000002BE"]
+			id: "000000000000031D"
+			tasks: [
+				{
+					id: "000000000000031E"
+					type: "item"
+					item: "industrialforegoing:tinydryrubber"
+					count: 9l
+				}
+			]
+			rewards: [{ id: "00000000000008EE", type: "xp_levels", xp_levels: 5 }]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.29.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.29.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.29.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.29.description.2}"
+			]
+			dependencies: ["000000000000031D"]
+			id: "000000000000031F"
+			tasks: [
+				{
+					id: "0000000000000320"
+					type: "item"
+					item: "industrialforegoing:dryrubber"
+				}
+			]
+			rewards: [{ id: "00000000000008E7", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.industrialforegoing.quests.30.title}"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.30.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.30.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.30.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.30.description.2}"
+			]
+			dependencies: ["000000000000031F"]
+			dependency_requirement: "all_started"
+			id: "0000000000000321"
+			tasks: [
+				{
+					id: "0000000000000322"
+					type: "item"
+					title: "Any Plastic"
+					item: { id: "itemfilters:tag", Count: 1b, tag: { value: "forge:plastic" } }
+				}
+			]
+			rewards: [{ id: "00000000000008E8", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.31.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.31.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.31.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.31.description.2}"
+			]
+			dependencies: ["00000000000002B6"]
+			optional: true
+			id: "0000000000000325"
+			tasks: [
+				{
+					id: "0000000000000326"
+					type: "item"
+					item: "industrialforegoing:pink_slime_bucket"
+				}
+			]
+			rewards: [{ id: "00000000000008E9", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.32.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.32.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.32.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.32.description.2}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.32.description.3}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.32.description.4}"
+			]
+			dependencies: ["00000000000002C2", "0000000000000325"]
+			dependency_requirement: "one_completed"
+			id: "0000000000000327"
+			tasks: [
+				{
+					id: "0000000000000328"
+					type: "item"
+					item: "industrialforegoing:pink_slime"
+				}
+			]
+			rewards: [{ id: "00000000000008EA", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.33.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.33.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.33.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.33.description.2}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.33.description.3}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.33.description.4}"
+			]
+			dependencies: ["0000000000000321"]
+			optional: true
+			id: "000000000000045A"
+			tasks: [
+				{
+					id: "000000000000045B"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+			]
+			rewards: [{ id: "00000000000008EB", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.34.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.34.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.34.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.34.description.2}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.34.description.3}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.34.description.4}"
+			]
+			dependencies: ["00000000000002A6"]
+			id: "000000000000045C"
+			tasks: [
+				{
+					id: "000000000000045D"
+					type: "item"
+					item: "industrialforegoing:pitiful_generator"
+				}
+			]
+			rewards: [{ id: "00000000000008EC", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.35.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.35.description.0}"
+			]
+			dependencies: ["00000000000002C2"]
+			id: "0000000000000786"
+			tasks: [
+				{
+					id: "0000000000000787"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_drill"
+						Count: 1b
+						tag: {
+							Special: 0
+							Selected: "POOR"
+							Energy: 0
+							Fluid: { FluidName: "biofuel", Amount: 0 }
+						}
+					}
+				}
+			]
+			rewards: [{ id: "00000000000008ED", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.36.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.36.description.0}"
+			]
+			dependencies: ["00000000000002C2"]
+			id: "0000000000000BEF"
+			tasks: [
+				{
+					id: "0000000000000BF0"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_saw"
+						Count: 1b
+						tag: {
+							CanCharge: 1
+							Special: 0
+							Selected: "POOR"
+							Energy: 0
+							Fluid: { FluidName: "biofuel", Amount: 0 }
+						}
+					}
+				}
+			]
+			rewards: [{ id: "0000000000000D85", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.37.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.37.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.37.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.37.description.2}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "000000000000104D"
+			tasks: [
+				{
+					id: "000000000000104E"
+					type: "item"
+					item: "industrialforegoing:machine_frame_advanced"
+				}
+			]
+			rewards: [{ id: "000000000000104F", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.38.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.38.description.0}"
+			]
+			dependencies: ["00000000000002C2"]
+			id: "0000000000001050"
+			tasks: [
+				{
+					id: "0000000000001051"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_hammer"
+						Count: 1b
+						tag: {
+							CanCharge: 1
+							Energy: 0
+							Fluid: { FluidName: "biofuel", Amount: 0 }
+							Special: 0
+							Selected: "POOR"
+							Beheading: 0
+						}
+					}
+				}
+			]
+			rewards: [{ id: "0000000000001052", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: 14.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.39.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.39.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001053"
+			tasks: [
+				{
+					id: "0000000000001054"
+					type: "item"
+					item: "industrialforegoing:enchantment_extractor"
+				}
+			]
+			rewards: [{ id: "0000000000001055", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -3.0d
+			y: 13.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.40.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.40.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001056"
+			tasks: [
+				{
+					id: "0000000000001057"
+					type: "item"
+					item: "industrialforegoing:enchantment_factory"
+				}
+			]
+			rewards: [{ id: "0000000000001058", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.5d
+			y: 15.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.41.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.41.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001059"
+			tasks: [
+				{
+					id: "000000000000105A"
+					type: "item"
+					item: "industrialforegoing:enchantment_applicator"
+				}
+			]
+			rewards: [{ id: "000000000000105B", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -3.0d
+			y: 12.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.42.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.42.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000105C"
+			tasks: [
+				{
+					id: "000000000000105D"
+					type: "item"
+					item: "industrialforegoing:enchantment_sorter"
+				}
+			]
+			rewards: [{ id: "000000000000105E", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.43.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.43.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000105F"
+			tasks: [
+				{
+					id: "0000000000001060"
+					type: "item"
+					item: "industrialforegoing:mob_crusher"
+				}
+			]
+			rewards: [{ id: "0000000000001061", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.44.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.44.description.0}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001062"
+			tasks: [
+				{
+					id: "0000000000001063"
+					type: "item"
+					item: "industrialforegoing:potion_brewer"
+				}
+			]
+			rewards: [{ id: "0000000000001064", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.45.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.45.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.45.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.45.description.2}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.45.description.3}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.45.description.4}"
+			]
+			dependencies: ["00000000000002BE"]
+			optional: true
+			id: "00000000000002A3"
+			tasks: [
+				{
+					id: "00000000000002A4"
+					type: "item"
+					item: "industrialforegoing:latex_bucket"
+				}
+			]
+			rewards: [{ id: "00000000000002A5", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.46.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.46.description.0}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "00000000000012FD"
+			tasks: [
+				{
+					id: "00000000000012FE"
+					type: "item"
+					item: "industrialforegoing:hydroponic_bed"
+				}
+			]
+			rewards: [{ id: "0000000000001327", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.47.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.47.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.47.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.47.description.2}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "00000000000012FF"
+			tasks: [
+				{
+					id: "0000000000001300"
+					type: "item"
+					item: "industrialforegoing:mycelial_furnace"
+				}
+			]
+			rewards: [{ id: "000000000000132A", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.48.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.48.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.48.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.48.description.2}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "0000000000001303"
+			tasks: [
+				{
+					id: "0000000000001304"
+					type: "item"
+					item: "industrialforegoing:mycelial_culinary"
+				}
+			]
+			rewards: [{ id: "0000000000001329", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.49.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.49.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.49.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.49.description.2}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "0000000000001305"
+			tasks: [
+				{
+					id: "0000000000001306"
+					type: "item"
+					item: "industrialforegoing:mycelial_pink"
+				}
+			]
+			rewards: [{ id: "000000000000132B", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.50.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.50.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.50.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.50.description.2}"
+			]
+			dependencies: ["0000000000000319"]
+			id: "0000000000001307"
+			tasks: [
+				{
+					id: "0000000000001308"
+					type: "item"
+					item: "industrialforegoing:mycelial_frosty"
+				}
+			]
+			rewards: [{ id: "0000000000001328", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -0.5d
+			y: 15.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.51.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.51.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.51.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.51.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001309"
+			tasks: [
+				{
+					id: "000000000000130A"
+					type: "item"
+					item: "industrialforegoing:mycelial_death"
+				}
+			]
+			rewards: [{ id: "000000000000132E", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.5d
+			y: 15.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.52.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.52.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.52.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.52.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000130B"
+			tasks: [
+				{
+					id: "000000000000130C"
+					type: "item"
+					item: "industrialforegoing:mycelial_rocket"
+				}
+			]
+			rewards: [{ id: "000000000000132D", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.5d
+			y: 15.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.53.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.53.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.53.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.53.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000130D"
+			tasks: [
+				{
+					id: "000000000000130E"
+					type: "item"
+					item: "industrialforegoing:mycelial_potion"
+				}
+			]
+			rewards: [{ id: "000000000000132F", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 14.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.54.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.54.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.54.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.54.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000130F"
+			tasks: [
+				{
+					id: "0000000000001310"
+					type: "item"
+					item: "industrialforegoing:mycelial_crimed"
+				}
+			]
+			rewards: [{ id: "0000000000001330", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.55.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.55.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.55.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.55.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001311"
+			tasks: [
+				{
+					id: "0000000000001312"
+					type: "item"
+					item: "industrialforegoing:mycelial_ender"
+				}
+			]
+			rewards: [{ id: "0000000000001331", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.0d
+			y: 12.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.56.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.56.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.56.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.56.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001313"
+			tasks: [
+				{
+					id: "0000000000001314"
+					type: "item"
+					item: "industrialforegoing:mycelial_disenchantment"
+				}
+			]
+			rewards: [{ id: "0000000000001332", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 11.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.57.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.57.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.57.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.57.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001315"
+			tasks: [
+				{
+					id: "0000000000001316"
+					type: "item"
+					item: "industrialforegoing:mycelial_magma"
+				}
+			]
+			rewards: [{ id: "0000000000001333", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.58.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.58.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.58.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.58.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001317"
+			tasks: [
+				{
+					id: "0000000000001318"
+					type: "item"
+					item: "industrialforegoing:infinity_charger"
+				}
+			]
+			rewards: [{ id: "000000000000132C", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.0d
+			y: 10.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.59.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.59.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.59.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.59.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "0000000000001319"
+			tasks: [
+				{
+					id: "000000000000131A"
+					type: "item"
+					item: "industrialforegoing:mycelial_explosive"
+				}
+			]
+			rewards: [{ id: "0000000000001334", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 18.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.60.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.60.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.60.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.60.description.2}"
+			]
+			dependencies: ["000000000000104D"]
+			id: "000000000000131B"
+			tasks: [
+				{
+					id: "000000000000131C"
+					type: "item"
+					item: "industrialforegoing:machine_frame_supreme"
+				}
+			]
+			rewards: [{ id: "0000000000001323", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.0d
+			y: 19.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.61.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.61.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.61.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.61.description.2}"
+			]
+			dependencies: ["000000000000131B"]
+			id: "000000000000131D"
+			tasks: [
+				{
+					id: "000000000000131E"
+					type: "item"
+					item: "industrialforegoing:mycelial_meatallurgic"
+				}
+			]
+			rewards: [{ id: "0000000000001326", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.0d
+			y: 19.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.62.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.62.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.62.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.62.description.2}"
+			]
+			dependencies: ["000000000000131B"]
+			id: "000000000000131F"
+			tasks: [
+				{
+					id: "0000000000001320"
+					type: "item"
+					item: "industrialforegoing:mycelial_netherstar"
+				}
+			]
+			rewards: [
+				{ id: "0000000000001324", type: "item", item: "lootbagmod:lootbag", count: 2 }
+			]
+		}
+		{
+			x: 0.0d
+			y: 19.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.63.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.63.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.63.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.63.description.2}"
+			]
+			dependencies: ["000000000000131B"]
+			id: "0000000000001321"
+			tasks: [
+				{
+					id: "0000000000001322"
+					type: "item"
+					item: "industrialforegoing:mycelial_halitosis"
+				}
+			]
+			rewards: [{ id: "0000000000001325", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.64.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.64.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.64.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.64.description.2}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000001335"
+			tasks: [
+				{
+					id: "0000000000001336"
+					type: "item"
+					item: "industrialforegoing:block_placer"
+				}
+			]
+			rewards: [{ id: "0000000000001337", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.65.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.65.description.0}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.65.description.1}"
+				"{ftbquests.custom_quests.industrialforegoing.quests.65.description.2}"
+			]
+			dependencies: ["0000000000000321"]
+			id: "0000000000001338"
+			tasks: [
+				{
+					id: "0000000000001339"
+					type: "item"
+					item: "industrialforegoing:fluid_collector"
+				}
+			]
+			rewards: [{ id: "000000000000133B", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.66.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.66.description.0}"
+			]
+			dependencies: ["00000000000002C2"]
+			id: "000000000000133C"
+			tasks: [
+				{
+					id: "000000000000133D"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_trident"
+						Count: 1b
+						tag: {
+							CanCharge: 1b
+							Riptide: 0
+							Channeling: 0b
+							Energy: 0l
+							Fluid: { FluidName: "biofuel", Amount: 0 }
+							Special: 0b
+							Selected: "POOR"
+							Loyalty: 0
+						}
+					}
+				}
+			]
+			rewards: [{ id: "6EB36EDEA5555E41", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			subtitle: "{ftbquests.custom_quests.industrialforegoing.quests.67.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.industrialforegoing.quests.67.description.0}"
+			]
+			dependencies: ["00000000000002C2"]
+			id: "000000000000133E"
+			tasks: [
+				{
+					id: "000000000000133F"
+					type: "item"
+					item: {
+						id: "industrialforegoing:infinity_backpack"
+						Count: 1b
+						tag: { CanCharge: 1b, Special: 0b, Selected: "POOR", Energy: 0l }
+					}
+				}
+			]
+			rewards: [{ id: "537074B9CE702C0A", type: "item", item: "lootbagmod:lootbag" }]
+		}
+	]
+}

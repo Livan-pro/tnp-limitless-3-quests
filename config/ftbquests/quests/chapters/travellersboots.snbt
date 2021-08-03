@@ -1,0 +1,157 @@
+{
+	id: "0000000000000972"
+	group: ""
+	order_index: 31
+	filename: "travellersboots"
+	title: "{ftbquests.custom_quests.travellersboots.title}"
+	icon: { id: "travellersboots:travellersbootmki", Count: 1b, tag: { Damage: 0 } }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -1.28d
+			width: 0.6d
+			height: 0.6d
+			rotation: 0.0d
+			image: "kubejs:textures/other/quest-tnp.png"
+			hover: ["Questline by: TNP Team, Gbergz."]
+			click: "https://www.curseforge.com/members/nexusproject/projects"
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"{ftbquests.custom_quests.travellersboots.quests.0.description.0}"
+				"{ftbquests.custom_quests.travellersboots.quests.0.description.1}"
+				"{ftbquests.custom_quests.travellersboots.quests.0.description.2}"
+				"{ftbquests.custom_quests.travellersboots.quests.0.description.3}"
+				"{ftbquests.custom_quests.travellersboots.quests.0.description.4}"
+				"{ftbquests.custom_quests.travellersboots.quests.0.description.5}"
+				"{ftbquests.custom_quests.travellersboots.quests.0.description.6}"
+			]
+			size: 1.3d
+			id: "0000000000000975"
+			tasks: [
+				{
+					id: "0000000000000976"
+					type: "item"
+					item: { id: "travellersboots:travellersbootmki", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "0000000000000981", type: "xp_levels", xp_levels: 5 }
+				{ id: "0000000000000B35", type: "item", item: "aquaculture:treasure_chest" }
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.0}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.1}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.2}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.3}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.4}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.5}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.6}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.7}"
+				"{ftbquests.custom_quests.travellersboots.quests.1.description.8}"
+			]
+			dependencies: ["0000000000000975"]
+			id: "0000000000000977"
+			tasks: [
+				{
+					id: "0000000000000978"
+					type: "item"
+					item: { id: "travellersboots:travellersbootmkii", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [{ id: "0000000000000982", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.0}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.1}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.2}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.3}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.4}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.5}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.6}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.7}"
+				"{ftbquests.custom_quests.travellersboots.quests.2.description.8}"
+			]
+			dependencies: ["0000000000000977"]
+			id: "0000000000000979"
+			tasks: [
+				{
+					id: "000000000000097A"
+					type: "item"
+					item: { id: "travellersboots:travellersbootmkiii", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [{ id: "0000000000000983", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.0}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.1}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.2}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.3}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.4}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.5}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.6}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.7}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.8}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.9}"
+				"{ftbquests.custom_quests.travellersboots.quests.3.description.10}"
+			]
+			dependencies: ["0000000000000979"]
+			id: "000000000000097B"
+			tasks: [
+				{
+					id: "000000000000097C"
+					type: "item"
+					item: { id: "travellersboots:travellersbootmkiv", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [{ id: "0000000000000984", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: [
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.0}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.1}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.2}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.3}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.4}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.5}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.6}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.7}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.8}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.9}"
+				"{ftbquests.custom_quests.travellersboots.quests.4.description.10}"
+			]
+			dependencies: ["000000000000097B"]
+			id: "7E0ED8C57EB0DE56"
+			tasks: [
+				{
+					id: "344C99ED5695DB23"
+					type: "item"
+					item: { id: "travellersboots:travellersbootmkv", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [{ id: "5207AB605ADBF5D4", type: "item", item: "lootbagmod:lootbag" }]
+		}
+	]
+}

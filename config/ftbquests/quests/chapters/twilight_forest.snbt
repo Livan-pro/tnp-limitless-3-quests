@@ -1,0 +1,1888 @@
+{
+	id: "7602B8877DB34DDF"
+	group: ""
+	order_index: 21
+	filename: "twilight_forest"
+	title: "{ftbquests.custom_quests.twilight_forest.title}"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.24d
+			y: 0.06d
+			shape: "square"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.0.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.0.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.0.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.0.description.2}"
+			]
+			size: 1.2d
+			id: "1EA0A508CC9A8D32"
+			tasks: [
+				{
+					id: "51DFE14C8E646725"
+					type: "advancement"
+					title: "Twilight Forest"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					advancement: "twilightforest:root"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "4245360A55728626", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+				{ id: "39CE769F765AEC01", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.1.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.1.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.1.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.1.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.1.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.1.description.4}"
+			]
+			id: "2D0EA4BA0402745B"
+			tasks: [
+				{
+					id: "12894EFD27EA23D7"
+					type: "advancement"
+					title: "Consummate Baaahs"
+					icon: "twilightforest:quest_ram_trophy"
+					advancement: "twilightforest:quest_ram"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3DE2E57B9D9789D8"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "3A84078F62E2F73C", type: "item", item: "lootbagmod:lootbag" }
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.55d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.2.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.2.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.2.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.2.description.2}"
+			]
+			id: "1F0306B53D0A9DC2"
+			tasks: [
+				{
+					id: "57514FC9F70F196D"
+					type: "advancement"
+					title: "The Silence of the Forest"
+					icon: "twilightforest:raven_feather"
+					advancement: "twilightforest:twilight_hunter"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "4F5F49C10C5E2A20", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+				{ id: "1EF4E2595E46E4F7", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.3.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.3.description.0}"]
+			id: "4C536EDC0CCBADA0"
+			tasks: [
+				{
+					id: "3B53BA4AB48FA6B1"
+					type: "advancement"
+					title: "Bug Stomper"
+					icon: "twilightforest:hedge"
+					advancement: "twilightforest:hedge"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "6CC374FE4DA1B810", type: "item", item: "kubejs:lootbag_piece", count: 2 }
+				{ id: "3730ACCAF458FF75", type: "xp_levels", xp_levels: 1 }
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.4.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.4.description.0}"]
+			id: "32C62A68C71194DC"
+			tasks: [
+				{
+					id: "6FED4CFCF2809CA2"
+					type: "advancement"
+					title: "The Boots Are Mine!"
+					icon: { id: "minecraft:iron_boots", Count: 1b, tag: { Damage: 0 } }
+					advancement: "twilightforest:hill1"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "136782D7C09510BF"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 1.035d
+			y: 1.6099999999999997d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.5.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.5.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.5.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.5.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.5.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.5.description.4}"
+				"{ftbquests.custom_quests.twilight_forest.quests.5.description.5}"
+			]
+			size: 1.15d
+			id: "191A3CD20E13090F"
+			tasks: [
+				{
+					id: "315D6685892B8952"
+					type: "advancement"
+					title: "Maniacal Dendrologist"
+					icon: "minecraft:oak_fence"
+					advancement: "twilightforest:arborist"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "4B3040CB8E15A1FE", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "54D3C17F7092DD62", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "62643277F74FDF4B"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 1.035d
+			y: 2.7024999999999997d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.6.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.6.description.0}"]
+			size: 1.15d
+			id: "5F07DAB4EEF228FA"
+			tasks: [
+				{
+					id: "32A4F17E4C0250C4"
+					type: "advancement"
+					title: "We Dine At Eternal Sundown"
+					icon: "minecraft:bowl"
+					advancement: "twilightforest:twilight_dinner"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "1D7E21A03BDF110C", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "61BBDE88FFDB17DA", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "5C7058FE87F0586B"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 2.05d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.7.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.7.description.0}"]
+			id: "57F6EF498C5CD3A9"
+			tasks: [
+				{
+					id: "032D3CFD213D056D"
+					type: "advancement"
+					title: "What Was That Noise?"
+					icon: {
+						id: "twilightforest:ironwood_pickaxe"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:efficiency" }] }
+					}
+					advancement: "twilightforest:hill2"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "3C8F5750150E8626", type: "xp_levels", xp_levels: 2 }
+				{
+					id: "5291C7491BC47342"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 3.15d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.8.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.8.description.0}"]
+			id: "11D3D7F428397BA4"
+			tasks: [
+				{
+					id: "1A489BF23FDFFCC9"
+					type: "advancement"
+					title: "I See Right Through You"
+					icon: "minecraft:glowstone_dust"
+					advancement: "twilightforest:hill3"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "5FAD635D1DC1725C", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "2CF53586C41CC46C"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 2.1d
+			y: 2.7d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.9.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.9.description.0}"]
+			size: 1.15d
+			id: "28B066EF50523118"
+			tasks: [
+				{
+					id: "790CE6DD97C8AFC0"
+					type: "advancement"
+					title: "Time To Even The Scales"
+					icon: "twilightforest:naga_courtyard_miniature_structure"
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "53839269F7CCD266", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "22844D0D995A7C9B", type: "xp_levels", xp_levels: 3 }
+			]
+		}
+		{
+			x: 3.1049999999999995d
+			y: 2.07d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.10.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.10.description.0}"]
+			size: 1.15d
+			id: "563BB904D3372806"
+			tasks: [
+				{
+					id: "0BE274FDF397457C"
+					type: "advancement"
+					title: "Naga Armorer"
+					icon: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 3s, id: "minecraft:fire_protection" }] }
+					}
+					advancement: "twilightforest:naga_armors"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "557C083EC8FCC57C"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "106F1F2A055E1F19", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 3.1049999999999995d
+			y: 3.1624999999999996d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.11.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.11.description.0}"]
+			size: 1.15d
+			id: "370FA783451DD289"
+			tasks: [
+				{
+					id: "71AD4575EF13BF1A"
+					type: "advancement"
+					title: "Bring Out Your Dead"
+					icon: "twilightforest:lich_tower_miniature_structure"
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "5396C1BE274E3893", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "689CA1C7489C680D"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 4.254999999999999d
+			y: 3.3924999999999996d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.12.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.12.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.12.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.12.description.2}"
+			]
+			size: 1.15d
+			id: "38648C77B19B8B27"
+			tasks: [
+				{
+					id: "76CE72AED339B8D5"
+					type: "advancement"
+					title: "Mighty Stroganoff"
+					icon: "twilightforest:meef_stroganoff"
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "517E3C9ACB856323"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "1154C306687CBC7F", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 5.2d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.13.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.13.description.0}"]
+			size: 1.15d
+			id: "4CCCC30C20741DCA"
+			tasks: [
+				{
+					id: "7D8F39E08684438A"
+					type: "advancement"
+					title: "Hydra Slayer"
+					icon: "twilightforest:hydra_trophy"
+					advancement: "twilightforest:progress_hydra"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "79AA5B317C6E97F7", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "7032A865A9D35A97", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "468CEF8480FAE268"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 5.2d
+			y: 4.05d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.14.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.14.description.0}"]
+			size: 1.15d
+			id: "15559CD9CE0C1587"
+			tasks: [
+				{
+					id: "751A6B662E0D24A9"
+					type: "advancement"
+					title: "Breaking the Maze"
+					icon: {
+						id: "twilightforest:mazebreaker_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{ lvl: 4s, id: "minecraft:efficiency" }
+								{ lvl: 3s, id: "minecraft:unbreaking" }
+								{ lvl: 2s, id: "minecraft:fortune" }
+							]
+						}
+					}
+					advancement: "twilightforest:mazebreaker"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "395ADBDD0C37641B", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "1036FEB87BC434B3"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 6.2d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.15.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.15.description.0}"]
+			hide: false
+			id: "18C9ACBB4E5B98CC"
+			tasks: [
+				{
+					id: "100C980AEF577351"
+					type: "advancement"
+					title: "Hydra Chop, Baby!"
+					icon: "twilightforest:hydra_chop"
+					advancement: "twilightforest:hydra_chop"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "414B283CBD8B0B47"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "2DE818B47202B9D6", type: "xp_levels", xp_levels: 3 }
+			]
+		}
+		{
+			x: 6.209999999999999d
+			y: 3.5074999999999994d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.16.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.16.description.0}"]
+			size: 1.15d
+			id: "1D13F9EF421ADB4E"
+			tasks: [
+				{
+					id: "3B7B94CBFBC9BA55"
+					type: "advancement"
+					title: "Gallons of Blood and Tears"
+					icon: { id: "twilightforest:fiery_sword", Count: 1b, tag: { Damage: 0 } }
+					advancement: "twilightforest:fiery_set"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "62360680BF1E2495"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "4AF738BA50CA003A", type: "xp_levels", xp_levels: 3 }
+			]
+		}
+		{
+			x: 5.232499999999999d
+			y: 5.174999999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.17.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.17.description.0}"]
+			size: 1.15d
+			id: "357AE91A0DA539AF"
+			tasks: [
+				{
+					id: "073378E2414FF2F0"
+					type: "advancement"
+					title: "Clear Skies"
+					icon: "twilightforest:snow_queen_trophy"
+					advancement: "twilightforest:progress_glacier"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "6A4E7000BA4B801C", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "65C0399CC44FC33D", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "7CAC2CC65E46EAFF"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 5.232499999999999d
+			y: 6.267499999999999d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.18.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.18.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.18.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.18.description.2}"
+			]
+			size: 1.15d
+			id: "17608054EC4D154E"
+			tasks: [
+				{
+					id: "488EB2FCABC7DDA1"
+					type: "advancement"
+					title: "One Hit Wonder"
+					icon: { id: "twilightforest:glass_sword", Count: 1b, tag: { Damage: 0 } }
+					advancement: "twilightforest:break_glass_sword"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "276AB05C60C7C9D6", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "12B935AA23EAA2D0"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.3125d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.19.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.19.description.0}"]
+			size: 0.75d
+			id: "68A591283036C3B8"
+			tasks: [
+				{
+					id: "0C5382D22FF58D25"
+					type: "advancement"
+					title: "Getting in Fashion"
+					icon: {
+						id: "twilightforest:arctic_chestplate"
+						Count: 1b
+						tag: { Damage: 0, display: { color: 16701501, hasColor: 1b } }
+					}
+					advancement: "twilightforest:arctic_armor_dyed"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0A899A8354CC2125"
+					type: "loot"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "62DA938F2A56F506", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 4.1975d
+			y: 6.267499999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.20.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.20.description.0}"]
+			size: 1.15d
+			id: "5995B93DC0EF28EC"
+			tasks: [
+				{
+					id: "5D636899CA9A4E28"
+					type: "advancement"
+					title: "Alpha Fur"
+					icon: "twilightforest:alpha_fur"
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "038B55E866B2DF97"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "0C472708730889FC", type: "xp_levels", xp_levels: 3 }
+			]
+		}
+		{
+			x: 4.1975d
+			y: 7.3599999999999985d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.21.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.21.description.0}"]
+			size: 1.15d
+			id: "430507C14B37214A"
+			tasks: [
+				{
+					id: "7ACAADB1C9811023"
+					type: "advancement"
+					title: "By Our Powers Combined!"
+					icon: { id: "twilightforest:zombie_scepter", Count: 1b, tag: { Damage: 0 } }
+					advancement: "twilightforest:lich_scepters"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "3FB31DED0EC91BB1", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "3276181148271A3F", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "3287AD4E6147EB2D"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 4.254999999999999d
+			y: -0.4024999999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.22.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.22.description.0}"]
+			size: 1.15d
+			id: "34B0F027714C44AE"
+			tasks: [
+				{
+					id: "459F99C868022A1C"
+					type: "advancement"
+					title: "Trophied Champion"
+					icon: "twilightforest:trophy_pedestal"
+					advancement: "twilightforest:progress_trophy_pedestal"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2B3AC586448C5B1A"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 4.254999999999999d
+			y: 1.5524999999999998d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.23.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.23.description.0}"]
+			size: 1.15d
+			id: "1D3A89737553342F"
+			tasks: [
+				{
+					id: "0A48D2EFAF6D72EA"
+					type: "advancement"
+					title: "Ultimate Showdown"
+					icon: "twilightforest:uberous_soil"
+					advancement: "twilightforest:progress_merge"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "6BFD950ABF8B9AD4", type: "item", item: "lootbagmod:lootbag", count: 2 }
+				{ id: "287527EEDF55D01F", type: "xp_levels", xp_levels: 10 }
+				{
+					id: "0563A01E7690CCE1"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 5.347499999999999d
+			y: -0.4024999999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.24.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.24.description.0}"]
+			size: 1.15d
+			id: "6AC995FD4A3A9368"
+			tasks: [
+				{
+					id: "27EFC322F14C987A"
+					type: "advancement"
+					title: "Carminite Acclimation"
+					icon: "twilightforest:knight_phantom_trophy"
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "529CC4E711838D18"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "2F02A5D6E2D5ED80", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 5.289999999999999d
+			y: 1.5524999999999998d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.25.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.25.description.0}"]
+			size: 1.15d
+			id: "49AC1498190F2CE7"
+			tasks: [
+				{
+					id: "307CCF5AACAD5C26"
+					type: "advancement"
+					title: "I Wish For More Burning"
+					icon: { id: "twilightforest:lamp_of_cinders", Count: 1b, tag: { Damage: 0 } }
+					advancement: "twilightforest:progress_troll"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5C9D79B93247F4F6"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "02C7CD77906CB013", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 7.35d
+			y: 0.4d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.26.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.26.description.0}"]
+			size: 1.15d
+			id: "4AF878B80A38BFBE"
+			tasks: [
+				{
+					id: "58C71FCBA20C6BF4"
+					type: "advancement"
+					title: "Tears of Fire"
+					icon: "twilightforest:ur_ghast_trophy"
+					advancement: "twilightforest:progress_ur_ghast"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "34164DAA6574AE36", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "1B8ADEF5E288B02E", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "35E4C3C5FAA02A50"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 6.3d
+			y: 0.4d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.27.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.27.description.0}"]
+			id: "6EB75D97622E7C58"
+			tasks: [
+				{
+					id: "1AA8E4594AFA4CE4"
+					type: "advancement"
+					title: "Something Strange in Towerwood"
+					icon: "twilightforest:ghast_trap"
+					advancement: "twilightforest:ghast_trap"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "126599AF9ABE55B4"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "017CE8F2DB02B841", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 6.4d
+			y: -1.15d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.28.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.28.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.28.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.28.description.2}"
+			]
+			id: "319AE4280DFA04E7"
+			tasks: [
+				{
+					id: "0DC09CB31C65327B"
+					type: "advancement"
+					title: "Mystery Meat?"
+					icon: "twilightforest:experiment_115"
+					advancement: "twilightforest:experiment_115"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3353B19A5C31388C"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 7.35d
+			y: -1.65d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.29.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.29.description.0}"]
+			optional: true
+			id: "1EF26B5A8C585048"
+			tasks: [
+				{
+					id: "67569217C36AEBB8"
+					type: "advancement"
+					title: "Eating 115 Everyday, 115 Years, Forever"
+					icon: "twilightforest:experiment_115"
+					advancement: "twilightforest:experiment_115_115"
+					criterion: ""
+				}
+			]
+			rewards: [{ id: "7288BA87D2E8368F", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 7.35d
+			y: -0.65d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.30.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.30.description.0}"]
+			optional: true
+			id: "365C1824FA56ECB6"
+			tasks: [
+				{
+					id: "3105A50122E19DEA"
+					type: "advancement"
+					title: "Making a note: huge Success!"
+					icon: "pamhc2foodcore:cheesecakeitem"
+					advancement: "twilightforest:experiment_115_self_replenishing"
+					criterion: ""
+				}
+			]
+			rewards: [{ id: "3C52EE9DA4C93A9E", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.31.title}"
+			x: 7.32d
+			y: 4.12d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.31.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.31.description.0}"]
+			dependencies: ["6C9EAAF9859D1238"]
+			size: 0.8d
+			optional: true
+			id: "13CE8C38632521A6"
+			tasks: [
+				{
+					id: "47E46C440EAB3247"
+					type: "item"
+					item: { id: "twilightforest:fiery_helmet", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0CC6F7F9DFAADC20"
+					type: "item"
+					item: { id: "twilightforest:fiery_chestplate", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "6C2AAA7B732CFF6D"
+					type: "item"
+					item: { id: "twilightforest:fiery_leggings", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "4F693C9B19E59D94"
+					type: "item"
+					item: { id: "twilightforest:fiery_boots", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "21A64B476BBA81E1", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "0CB53A13FB83C88A"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.32.title}"
+			x: 2.05d
+			y: -1.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.32.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.32.description.0}"]
+			id: "2B491426515C10C2"
+			tasks: [
+				{
+					id: "14068DDB57217DC9"
+					type: "item"
+					item: "twilightforest:magic_map_focus"
+				}
+			]
+			rewards: [
+				{ id: "125FD219BC33EC55", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+				{ id: "5E0E9A4FB2125BCE", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.33.title}"
+			x: 3.15d
+			y: -1.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.33.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.33.description.0}"]
+			id: "08F8C1C048AED046"
+			tasks: [
+				{
+					id: "4FEA35BEAC992926"
+					type: "item"
+					title: "Magic Map"
+					icon: "twilightforest:magic_map"
+					item: "twilightforest:magic_map_empty"
+				}
+			]
+			rewards: [
+				{
+					id: "153E2F5FE55BE51F"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.34.title}"
+			x: 4.25d
+			y: -1.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.34.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.34.description.0}"]
+			id: "16A1865B632A336A"
+			tasks: [
+				{
+					id: "0872CF209B59EFF2"
+					type: "item"
+					title: "Maze Map"
+					icon: "twilightforest:maze_map"
+					item: "twilightforest:maze_map_empty"
+				}
+			]
+			rewards: [
+				{
+					id: "703C64F548D4A181"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "0BD59C3E6C849B68", type: "xp_levels", xp_levels: 1 }
+			]
+		}
+		{
+			x: 5.347499999999999d
+			y: -1.4949999999999999d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.35.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.35.description.0}"]
+			size: 1.15d
+			id: "351392C3293E3A0C"
+			tasks: [
+				{
+					id: "141047920AA9C7EE"
+					type: "item"
+					icon: "twilightforest:ore_map"
+					item: "twilightforest:ore_map_empty"
+				}
+			]
+			rewards: [
+				{
+					id: "3BE79C6837CF22FF"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "770959AE4E799205", type: "xp_levels", xp_levels: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.36.title}"
+			x: 5.5125d
+			y: 0.4125d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.36.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.36.description.0}"]
+			dependencies: ["6AC995FD4A3A9368"]
+			size: 0.75d
+			optional: true
+			id: "4785B332C3ED76D4"
+			tasks: [
+				{
+					id: "1EB757F3228F5CE3"
+					type: "item"
+					item: { id: "twilightforest:phantom_helmet", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "38BE80CED8AAD325"
+					type: "item"
+					item: { id: "twilightforest:phantom_chestplate", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "3016ECDED35F0F94", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "657F6685B674C917"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.37.title}"
+			x: 3.36d
+			y: 6.24d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.37.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.37.description.0}"]
+			dependencies: ["5995B93DC0EF28EC"]
+			size: 0.8d
+			optional: true
+			id: "4B86E0B9A99D22A6"
+			tasks: [
+				{
+					id: "3ECE5450831329B5"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:protection" }] }
+					}
+				}
+				{
+					id: "5781AF68DAFCE127"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:protection" }] }
+					}
+				}
+				{
+					id: "06A7FBDDFB9E81C9"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:protection" }] }
+					}
+				}
+				{
+					id: "56EE1F8ADD3EF05D"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{ lvl: 2s, id: "minecraft:protection" }
+								{ lvl: 4s, id: "minecraft:feather_falling" }
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{ id: "688108F87E91DF79", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "1BACC63B2BE2DEC9", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "03A91F19526F385B"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.38.title}"
+			x: 4.875d
+			y: 0.2625d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.38.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.38.description.0}"]
+			dependencies: ["6AC995FD4A3A9368"]
+			size: 0.75d
+			optional: true
+			id: "6F70CEA4288827DC"
+			tasks: [
+				{
+					id: "52592510CFE92974"
+					type: "item"
+					item: { id: "twilightforest:knightmetal_helmet", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "370B59EEF2929A20"
+					type: "item"
+					item: { id: "twilightforest:knightmetal_chestplate", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "022483B0466C3E76"
+					type: "item"
+					item: { id: "twilightforest:knightmetal_leggings", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "4FBB8D4ED29181C5"
+					type: "item"
+					item: { id: "twilightforest:knightmetal_boots", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "64056F4C4010457C", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "06F6F233AC4E6AB4"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "0827402EB4FDECBF", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 1.05d
+			y: 3.8d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.39.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.39.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.39.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.39.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.39.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.39.description.4}"
+			]
+			optional: true
+			id: "746FDE160FB04761"
+			tasks: [
+				{
+					id: "257ADA4C0B67AE7E"
+					type: "item"
+					title: "Ironwood"
+					item: "twilightforest:ironwood_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "713DD3975DA2BF80"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.40.title}"
+			x: 0.375d
+			y: 3.4499999999999997d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.40.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.40.description.0}"]
+			dependencies: ["746FDE160FB04761"]
+			size: 0.75d
+			optional: true
+			id: "535083A062079B94"
+			tasks: [
+				{
+					id: "063FA7449EA64945"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:aqua_affinity" }] }
+					}
+				}
+				{
+					id: "2E7693196A60ECFB"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:protection" }] }
+					}
+				}
+				{
+					id: "2D3FA6D43912231E"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:protection" }] }
+					}
+				}
+				{
+					id: "07CA0BA51D75E57E"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:feather_falling" }] }
+					}
+				}
+			]
+			rewards: [
+				{ id: "65DD4A2BFD0372B8", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "4B9E7E3923636ACA"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "6F6F490C1DD8ABA7", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.41.title}"
+			x: 5.2d
+			y: 7.3d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.41.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.41.description.0}"]
+			optional: true
+			id: "6E54500FEDDEF859"
+			tasks: [
+				{
+					id: "715BE76ACF20C41F"
+					type: "item"
+					item: { id: "twilightforest:arctic_helmet", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "6322C1A99841203A"
+					type: "item"
+					item: { id: "twilightforest:arctic_chestplate", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "79EEFD84FC73146D"
+					type: "item"
+					item: { id: "twilightforest:arctic_leggings", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0EB50E8AD3B5B4BA"
+					type: "item"
+					item: { id: "twilightforest:arctic_boots", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "25E39C1CD4571561", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "7B0A2339324C7902", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "4F02C145C708CEC3"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.42.title}"
+			x: 3.6125d
+			y: 4.802499999999999d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.42.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.42.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.42.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.42.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.42.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.42.description.4}"
+				"{ftbquests.custom_quests.twilight_forest.quests.42.description.5}"
+				"{ftbquests.custom_quests.twilight_forest.quests.42.description.6}"
+			]
+			size: 0.85d
+			optional: true
+			id: "1D89F4A719EAC8BB"
+			tasks: [
+				{
+					id: "173085D1FB0C79E2"
+					type: "item"
+					item: { id: "twilightforest:ender_bow", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "78A2FF0C98A7435A", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "496021EF3D092085", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.43.title}"
+			x: 3.9949999999999997d
+			y: 4.42d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.43.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.43.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.43.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.43.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.43.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.43.description.4}"
+				"{ftbquests.custom_quests.twilight_forest.quests.43.description.5}"
+				"{ftbquests.custom_quests.twilight_forest.quests.43.description.6}"
+			]
+			size: 0.85d
+			optional: true
+			id: "5265B44C0E96CDF8"
+			tasks: [
+				{
+					id: "3672570BB0D07855"
+					type: "item"
+					item: { id: "twilightforest:ice_bow", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "1375C16DF9B0185A", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "22D24D78D4B5160C", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.44.title}"
+			x: 3.9949999999999997d
+			y: 5.185d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.44.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.44.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.44.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.44.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.44.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.44.description.4}"
+				"{ftbquests.custom_quests.twilight_forest.quests.44.description.5}"
+				"{ftbquests.custom_quests.twilight_forest.quests.44.description.6}"
+			]
+			size: 0.85d
+			optional: true
+			id: "2637C599C1D285A0"
+			tasks: [
+				{
+					id: "2CD162C61B29810F"
+					type: "item"
+					item: { id: "twilightforest:triple_bow", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "361B500BF683BC64", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "49FE9E57BFAA63B5", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.45.title}"
+			x: 4.3774999999999995d
+			y: 4.802499999999999d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.45.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.45.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.45.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.45.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.45.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.45.description.4}"
+				"{ftbquests.custom_quests.twilight_forest.quests.45.description.5}"
+				"{ftbquests.custom_quests.twilight_forest.quests.45.description.6}"
+			]
+			size: 0.85d
+			optional: true
+			id: "6B194430385448CE"
+			tasks: [
+				{
+					id: "477A783FFC42EBC3"
+					type: "item"
+					item: { id: "twilightforest:seeker_bow", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "1918A575B1AACC94", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "7FF1E34B9BAD01C7", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.46.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.46.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.46.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.46.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.46.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.46.description.4}"
+			]
+			optional: true
+			id: "7B14FF5BC2BED2C0"
+			tasks: [
+				{
+					id: "6B66410ECEED529B"
+					type: "item"
+					item: "twilightforest:steeleaf_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "380B76B206981338"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.47.title}"
+			x: 0.33749999999999997d
+			y: -3.8249999999999997d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.47.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.47.description.0}"]
+			dependencies: ["7B14FF5BC2BED2C0"]
+			size: 0.75d
+			optional: true
+			id: "26B80838FE506E61"
+			tasks: [
+				{
+					id: "32A42FA3190CA068"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{ lvl: 2s, id: "minecraft:projectile_protection" }]
+						}
+					}
+				}
+				{
+					id: "18455E0DC254738E"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:blast_protection" }] }
+					}
+				}
+				{
+					id: "3326625903352449"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:fire_protection" }] }
+					}
+				}
+				{
+					id: "06162524F0E70F89"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:feather_falling" }] }
+					}
+				}
+			]
+			rewards: [
+				{ id: "3645A97217F51FFA", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "1EE989A4E9146D96"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "0AE4BFDBE08F9675", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.48.title}"
+			x: 0.33749999999999997d
+			y: -3.15d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.48.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.48.description.0}"]
+			dependencies: ["7B14FF5BC2BED2C0"]
+			size: 0.75d
+			optional: true
+			id: "4B930CAB5FE61B0D"
+			tasks: [
+				{
+					id: "444BFB11E011BC08"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_sword"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:looting" }] }
+					}
+				}
+				{
+					id: "5AF26A6ACD1724E6"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_pickaxe"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:fortune" }] }
+					}
+				}
+				{
+					id: "10049DCE023F91D5"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_shovel"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:efficiency" }] }
+					}
+				}
+				{
+					id: "5EFA1BED80B83CC2"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_axe"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 2s, id: "minecraft:efficiency" }] }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "34E9A447A8378610"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "0B6D4773111A5D4B", type: "xp_levels", xp_levels: 2 }
+				{ id: "6356E9604CB2CEC7", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.49.title}"
+			x: 0.375d
+			y: 4.1625d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.49.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.49.description.0}"]
+			dependencies: ["746FDE160FB04761"]
+			size: 0.75d
+			optional: true
+			id: "2FCE8CD3C451A02B"
+			tasks: [
+				{
+					id: "10E7C1346D755B62"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_sword"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:knockback" }] }
+					}
+				}
+				{
+					id: "569FAF3778391D83"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_pickaxe"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:efficiency" }] }
+					}
+				}
+				{
+					id: "16619BEDF3B5B088"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_shovel"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:unbreaking" }] }
+					}
+				}
+				{
+					id: "6E2A96A24CD45A84"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_axe"
+						Count: 1b
+						tag: { Damage: 0, Enchantments: [{ lvl: 1s, id: "minecraft:fortune" }] }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "54CED08E02BC1ED9"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "1B580FEFF1E12961", type: "xp_levels", xp_levels: 3 }
+				{ id: "26ED0016210621C2", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			x: 5.05d
+			y: 0.775d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.50.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.50.description.0}"]
+			dependencies: ["6AC995FD4A3A9368"]
+			size: 0.55d
+			optional: true
+			id: "292A27B819399A7C"
+			tasks: [
+				{
+					id: "5D196DA9F691998E"
+					type: "item"
+					item: { id: "twilightforest:knightmetal_sword", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0CB356B9B1AA27A0"
+					type: "item"
+					item: { id: "twilightforest:knightmetal_pickaxe", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "371EB524188D7804"
+					type: "item"
+					item: { id: "twilightforest:knightmetal_axe", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{
+					id: "1AAACAD47FA2635D"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "15B144FEB5EA9E5F", type: "xp_levels", xp_levels: 5 }
+				{ id: "392643AC3F354013", type: "item", item: "kubejs:lootbag_piece", count: 4 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.51.title}"
+			x: 7.3125d
+			y: 2.925d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.51.subtitle}"
+			description: ["{ftbquests.custom_quests.twilight_forest.quests.51.description.0}"]
+			dependencies: ["6C9EAAF9859D1238"]
+			size: 0.75d
+			optional: true
+			id: "01DBFE02921D642D"
+			tasks: [
+				{
+					id: "64ECF1E67CA5704C"
+					type: "item"
+					item: { id: "twilightforest:fiery_sword", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "236BB562E31BAB65"
+					type: "item"
+					item: { id: "twilightforest:fiery_pickaxe", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{
+					id: "44AC02CED2A105E0"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "5BBCD8C283B016A2", type: "xp_levels", xp_levels: 5 }
+				{ id: "1E3FFEBF08B50E04", type: "item", item: "kubejs:lootbag_piece", count: 4 }
+			]
+		}
+		{
+			x: 7.05d
+			y: 3.525d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.52.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.52.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.52.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.52.description.2}"
+			]
+			size: 0.75d
+			optional: true
+			id: "6C9EAAF9859D1238"
+			tasks: [
+				{ id: "3CC873B1782C64C5", type: "item", item: "twilightforest:fiery_ingot" }
+			]
+			rewards: [
+				{
+					id: "23286F568D613EA7"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "352FCDACF28179B8", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.twilight_forest.quests.53.title}"
+			x: 2.9625d
+			y: 4.8d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.53.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.53.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.53.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.53.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.53.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.53.description.4}"
+				"{ftbquests.custom_quests.twilight_forest.quests.53.description.5}"
+				"{ftbquests.custom_quests.twilight_forest.quests.53.description.6}"
+			]
+			size: 0.75d
+			optional: true
+			id: "4FE585BE5C526104"
+			tasks: [
+				{
+					id: "511DC5F094BC9020"
+					type: "item"
+					item: { id: "twilightforest:ice_sword", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "015FDE82E7BAFA60", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "6E8A2C47E4161E0B", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 3.4d
+			y: 4.25d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.54.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.54.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.54.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.54.description.2}"
+			]
+			size: 0.85d
+			optional: true
+			id: "365F6A7E62C88CE6"
+			tasks: [
+				{
+					id: "31BB5AA53442D12B"
+					type: "item"
+					item: { id: "twilightforest:minotaur_axe", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "46E1C08CFFEEFC82", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "30183CC2C7351E67", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 3.4425d
+			y: 5.3975d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.55.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.55.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.55.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.55.description.2}"
+			]
+			size: 0.85d
+			optional: true
+			id: "429DB84153D0BE57"
+			tasks: [
+				{
+					id: "04F10B39E20505D7"
+					type: "item"
+					item: { id: "twilightforest:minotaur_axe_gold", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "25161C2E9226B10D", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "2F815ADDD4E8D481", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 2.04d
+			y: -3.3575d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.56.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.56.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.56.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.56.description.2}"
+				"{ftbquests.custom_quests.twilight_forest.quests.56.description.3}"
+				"{ftbquests.custom_quests.twilight_forest.quests.56.description.4}"
+			]
+			size: 0.85d
+			optional: true
+			id: "77EADB71FD30ED86"
+			tasks: [
+				{
+					id: "0584875833945073"
+					type: "item"
+					item: { id: "twilightforest:ore_magnet", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{
+					id: "056DCFA05A0C64C8"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "3A349209CABDFCB3", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 3.15d
+			y: -3.375d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.twilight_forest.quests.57.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.twilight_forest.quests.57.description.0}"
+				"{ftbquests.custom_quests.twilight_forest.quests.57.description.1}"
+				"{ftbquests.custom_quests.twilight_forest.quests.57.description.2}"
+			]
+			size: 0.85d
+			optional: true
+			id: "6D4599A2AF4A3319"
+			tasks: [
+				{
+					id: "032D3582115D014C"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_3"
+				}
+			]
+			rewards: [
+				{ id: "2EC4977725882DFE", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "04D3046C7B49FA9A", type: "xp_levels", xp_levels: 5 }
+				{
+					id: "36C0DF4349BE5D77"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+	]
+}

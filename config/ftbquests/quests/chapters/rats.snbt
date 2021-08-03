@@ -1,0 +1,3258 @@
+{
+	id: "6A01A284CA6D2BC7"
+	group: ""
+	order_index: 23
+	filename: "rats"
+	title: "{ftbquests.custom_quests.rats.title}"
+	icon: "rats:gem_of_ratlantis"
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -5.25d
+			y: 1.0d
+			width: 4.0d
+			height: 0.5d
+			rotation: 0.0d
+			image: "kubejs:textures/other/unseennote.png"
+			hover: ["Questline by: unseennote."]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "{ftbquests.custom_quests.rats.quests.0.title}"
+			icon: "rats:trash_can"
+			x: 2.6000000000000014d
+			y: 5.9d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.0.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.0.description.0}"]
+			id: "5F49136B5FAA95DB"
+			tasks: [
+				{ id: "4B8E1AAE1F17918F", type: "item", item: "rats:trash_can" }
+				{ id: "62F57E38C7E0AF3C", type: "item", item: "rats:garbage_pile" }
+			]
+			rewards: [
+				{
+					id: "66810B1FBBB53DF8"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{
+					id: "326929E2A72F34FE"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.1.title}"
+			x: 0.8999999999999986d
+			y: 7.6d
+			subtitle: "{ftbquests.custom_quests.rats.quests.1.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.1.description.0}"]
+			dependencies: ["5F49136B5FAA95DB"]
+			id: "61E0CE831EE185C4"
+			tasks: [
+				{ id: "2525572AE7148114", type: "item", item: "rats:compressed_garbage" }
+			]
+			rewards: [
+				{
+					id: "345037CE825A928D"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 1
+				}
+				{
+					id: "42ABB8C5B9F7BE00"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.2.title}"
+			x: 2.6000000000000014d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.2.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.2.description.0}"]
+			dependencies: ["747500AF9C6C6852"]
+			id: "6948CBC609CACB9D"
+			tasks: [{ id: "6EFF625B2D162C98", type: "item", item: "rats:cheese_stick" }]
+			rewards: [
+				{
+					id: "0688612A1B07C385"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{ id: "03C106E4C9EE799B", type: "xp", xp: 25 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.3.title}"
+			x: 0.8999999999999986d
+			y: 2.5d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.3.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.3.description.0}"]
+			dependencies: ["23D426E885D92DAF"]
+			id: "5CC60FE2A9FEAE09"
+			tasks: [
+				{ id: "52BED9DEA833DBC9", type: "item", item: "rats:rat_cage", count: 8l }
+			]
+			rewards: [
+				{
+					id: "5B5832926C89D8CB"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "7576CAC36A9EE50D"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.4.title}"
+			icon: "rats:rat_skull"
+			x: 6.0d
+			y: 2.5d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.4.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.4.description.0}"]
+			id: "3854DB64F6EB33E2"
+			tasks: [
+				{
+					id: "2413898C9FDCE460"
+					type: "kill"
+					icon: "rats:raw_rat"
+					entity: "rats:rat"
+					value: 5l
+				}
+			]
+			rewards: [
+				{
+					id: "489AC0C1DE04CD02"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+				{
+					id: "566A682E65F99569"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.5.title}"
+			x: 0.05000000000000071d
+			y: 1.6500000000000004d
+			subtitle: "{ftbquests.custom_quests.rats.quests.5.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.5.description.0}"
+				"{ftbquests.custom_quests.rats.quests.5.description.1}"
+				"{ftbquests.custom_quests.rats.quests.5.description.2}"
+			]
+			dependencies: ["747500AF9C6C6852"]
+			id: "23D426E885D92DAF"
+			tasks: [
+				{
+					id: "621C106063901605"
+					type: "advancement"
+					title: "Tame a Rat!"
+					icon: "rats:rat_paw"
+					advancement: "rats:rats/tame_rat"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "733411DBC86B7585"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{ id: "1FFF09BCFDE93001", type: "item", item: "rats:cheese", count: 20 }
+			]
+		}
+		{
+			x: 2.6000000000000014d
+			y: 4.199999999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.6.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.6.description.0}"
+				"{ftbquests.custom_quests.rats.quests.6.description.1}"
+				"{ftbquests.custom_quests.rats.quests.6.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61E0CE831EE185C4"]
+			id: "06A18726EF792698"
+			tasks: [
+				{ id: "754982FE121B0E38", type: "item", item: "rats:filth_corruption" }
+			]
+			rewards: [
+				{
+					id: "283348886C5D5F86"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 3
+				}
+				{
+					id: "2314ACB9C10568A7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.7.title}"
+			icon: { id: "rats:rat_king_crown", Count: 1b, tag: { Damage: 0 } }
+			x: 0.8999999999999986d
+			y: 4.199999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.7.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.7.description.0}"]
+			dependencies: ["06A18726EF792698"]
+			id: "72AF9F77E31A5F2B"
+			tasks: [
+				{
+					id: "448A6944F5D71035"
+					type: "advancement"
+					advancement: "rats:rats/defeat_rat_king"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "0AC02C2B87A59229", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "3B1E5236386CE695", type: "item", item: "rats:token_fragment" }
+			]
+		}
+		{
+			x: -1.6499999999999986d
+			y: -5.149999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.8.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.8.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["72AF9F77E31A5F2B", "69BBEB41F56F7A5D"]
+			id: "121E2349ABEA49E8"
+			tasks: [
+				{
+					id: "2E49685F242CF00A"
+					type: "item"
+					item: "rats:rat_upgrade_tick_accelerator"
+				}
+			]
+			rewards: [
+				{
+					id: "63F6CF5E4F2C52B6"
+					type: "item"
+					item: { id: "tiab:timeinabottle", Count: 1b, tag: { timeData: {  } } }
+				}
+				{
+					id: "4CB5F0EB95995C3A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "41B1647643A26BDE"
+					type: "item"
+					item: { id: "rats:rat_fez", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+		}
+		{
+			x: 0.05000000000000071d
+			y: -1.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.9.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.9.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["747500AF9C6C6852"]
+			id: "69BBEB41F56F7A5D"
+			tasks: [
+				{ id: "2567290A3A70DDD6", type: "item", item: "rats:rat_upgrade_basic" }
+			]
+			rewards: [
+				{
+					id: "5A1CC735C061C7A2"
+					type: "item"
+					item: "rats:rat_upgrade_basic"
+					count: 3
+				}
+				{
+					id: "4B557C0F084BB26F"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.10.title}"
+			icon: { id: "rats:ghost_pirat_hat", Count: 1b, tag: { Damage: 0 } }
+			x: -0.8000000000000007d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.10.subtitle}"
+			dependencies: ["4737D96A4B95633C"]
+			dependency_requirement: "one_completed"
+			id: "582D153D08959212"
+			tasks: [
+				{
+					id: "6B41CBE4DCC00C24"
+					type: "advancement"
+					icon: { id: "rats:ghost_pirat_hat", Count: 1b, tag: { Damage: 0 } }
+					advancement: "rats:ratlantis/defeat_dutchrat"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "030C057C84905B4D", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "79E98858B22384E9", type: "item", item: "rats:token_fragment" }
+			]
+		}
+		{
+			icon: "rats:ratlantis_portal"
+			x: 0.05000000000000071d
+			y: 3.3000000000000007d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.11.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.11.description.0}"
+				"{ftbquests.custom_quests.rats.quests.11.description.1}"
+				"{ftbquests.custom_quests.rats.quests.11.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["21548D7D17738551"]
+			id: "4737D96A4B95633C"
+			tasks: [
+				{
+					id: "4AF471B2A058A0EA"
+					type: "advancement"
+					title: "Enter Ratlantis"
+					advancement: "rats:ratlantis/ratlantis"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "533A844982C5FB90", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "4D28D3B154C7BB1A", type: "item", item: "rats:token_fragment" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.12.title}"
+			icon: { id: "rats:aviator_hat", Count: 1b, tag: { Damage: 0 } }
+			x: 8.55d
+			y: -1.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.12.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["4737D96A4B95633C"]
+			dependency_requirement: "one_completed"
+			id: "3406A6F702BC6B78"
+			tasks: [
+				{
+					id: "11C0B513DDF5927E"
+					type: "advancement"
+					title: "Defeat the Rat Baron"
+					icon: "rats:biplane_wing"
+					advancement: "rats:ratlantis/defeat_rat_baron"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "6FCB9090CCF8EB01", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "1436D606F701679F", type: "item", item: "rats:token_fragment" }
+			]
+		}
+		{
+			x: -0.8000000000000007d
+			y: 4.199999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.13.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.13.description.0}"]
+			dependencies: ["4737D96A4B95633C"]
+			id: "3F570010A487F72B"
+			tasks: [{ id: "27BE25D95C712E21", type: "item", item: "rats:oratchalcum_ore" }]
+			rewards: [
+				{
+					id: "4849850F2E815821"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "49CA38D5510CD7E0"
+					type: "item"
+					item: "rats:oratchalcum_ore"
+					count: 2
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.14.title}"
+			icon: { id: "rats:ratlantis_helmet", Count: 1b, tag: { Damage: 0 } }
+			x: -1.6499999999999986d
+			y: 5.050000000000001d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.rats.quests.14.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.14.description.0}"]
+			hide_dependency_lines: true
+			min_required_dependencies: 2
+			dependencies: ["3F570010A487F72B", "32AB801F2B7CE17E"]
+			dependency_requirement: "one_completed"
+			id: "5AB5000C6C143852"
+			tasks: [
+				{
+					id: "7430DABDDEE271B4"
+					type: "item"
+					item: { id: "rats:ratlantis_helmet", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0A5FAE7965B5BB50"
+					type: "item"
+					item: { id: "rats:ratlantis_chestplate", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "33543A9B4B5FD69E"
+					type: "item"
+					item: { id: "rats:ratlantis_leggings", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "1ED140AAA2AF3453"
+					type: "item"
+					item: { id: "rats:ratlantis_boots", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{
+					id: "7F916A7046529F98"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					random_bonus: 1
+				}
+				{
+					id: "5657A9E7F254E861"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+				{ id: "7030D67779C25C72", type: "xp_levels", xp_levels: 10 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.15.title}"
+			icon: { id: "rats:ratlantis_sword", Count: 1b, tag: { Damage: 0 } }
+			x: 3.4499999999999993d
+			y: 5.050000000000001d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.rats.quests.15.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.15.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["3F570010A487F72B", "32AB801F2B7CE17E"]
+			dependency_requirement: "one_completed"
+			id: "6874C749E7179598"
+			tasks: [
+				{
+					id: "49821FED4BA700C3"
+					type: "item"
+					item: { id: "rats:ratlantis_sword", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "79E21BB8152E7DA6"
+					type: "item"
+					item: { id: "rats:ratlantis_pickaxe", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "75A329DE17AFFD83"
+					type: "item"
+					item: { id: "rats:ratlantis_axe", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "27548CF51D049D05"
+					type: "item"
+					item: { id: "rats:ratlantis_shovel", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "00BA82AEE7A15434"
+					type: "item"
+					item: { id: "rats:ratlantis_hoe", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "7B85903B2B834712"
+					type: "item"
+					item: { id: "rats:ratlantis_bow", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{
+					id: "5F36459CC2C0683E"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					random_bonus: 1
+				}
+				{ id: "5ACCC9E17BC54BAE", type: "xp", xp: 200 }
+			]
+		}
+		{
+			x: -0.8000000000000007d
+			y: 0.8000000000000007d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.16.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.16.description.0}"
+				"{ftbquests.custom_quests.rats.quests.16.description.1}"
+				"{ftbquests.custom_quests.rats.quests.16.description.2}"
+			]
+			id: "21548D7D17738551"
+			tasks: [
+				{
+					id: "3C48AE9EC9619473"
+					type: "item"
+					item: "rats:chunky_cheese_token"
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{ id: "3DBF25C8798FFE08", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "03DF82302A012FC4", type: "xp", xp: 25 }
+			]
+		}
+		{
+			icon: "rats:cauldron_cheese"
+			x: 0.05000000000000071d
+			y: -0.05000000000000071d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.17.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.17.description.0}"]
+			id: "747500AF9C6C6852"
+			tasks: [
+				{
+					id: "554460689559268D"
+					type: "advancement"
+					title: "Get Cultured!"
+					icon: "rats:cauldron_milk"
+					advancement: "rats:rats/milk_cauldron"
+					criterion: ""
+				}
+				{
+					id: "409A660B34DEDA55"
+					type: "item"
+					icon: "rats:block_of_cheese"
+					item: "rats:block_of_cheese"
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "2812B44D6CC950D4"
+					type: "item"
+					item: "rats:cheese"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "0CBE1B5CC9745884"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+				{
+					id: "522DE1C86BA15479"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -4.199999999999999d
+			y: -4.300000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.18.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.18.description.0}"]
+			dependencies: ["20C12525092ED06E"]
+			id: "1FCA259118D39FCC"
+			tasks: [
+				{ id: "134AFC70515D31CB", type: "item", item: "rats:rat_crafting_table" }
+			]
+			rewards: [
+				{
+					id: "63EC68FA5DA2F93E"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "4A069AFDF066ABC4", type: "xp_levels", xp_levels: 10 }
+			]
+		}
+		{
+			icon: { id: "rats:piper_hat", Count: 1b, tag: { Damage: 0 } }
+			x: -0.8000000000000007d
+			y: 7.6d
+			subtitle: "{ftbquests.custom_quests.rats.quests.19.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.19.description.0}"]
+			dependencies: ["056827D74CCDCE67"]
+			id: "38EDB58CA27D4D6B"
+			tasks: [
+				{
+					id: "6A393D1DA3FE62EF"
+					type: "advancement"
+					title: "Pay the Piper"
+					icon: { id: "rats:piper_hat", Count: 1b, tag: { Damage: 0 } }
+					advancement: "rats:rats/piper"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "569060871D202B10"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "392C300C13F86EF8"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -0.8000000000000007d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.20.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.20.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["21548D7D17738551", "69BBEB41F56F7A5D"]
+			id: "32AB801F2B7CE17E"
+			tasks: [
+				{
+					id: "371B9ADC2731C8E5"
+					type: "item"
+					item: "rats:rat_upgrade_archeologist"
+				}
+			]
+			rewards: [
+				{ id: "0A380C0BB6FA2FBD", type: "item", item: "lootbagmod:lootbag" }
+				{
+					id: "149F91EC9EF7FF99"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.21.title}"
+			x: 4.300000000000001d
+			y: 0.8000000000000007d
+			subtitle: "{ftbquests.custom_quests.rats.quests.21.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.21.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["4737D96A4B95633C", "32AB801F2B7CE17E"]
+			dependency_requirement: "one_completed"
+			id: "5ACAD9826F2D6021"
+			tasks: [
+				{
+					id: "12516F6A75E3554D"
+					type: "item"
+					icon: "rats:ratlantean_flame"
+					item: "rats:ratlantean_flame"
+					count: 6l
+				}
+			]
+			rewards: [
+				{
+					id: "052D07D5A756F17A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+				{
+					id: "29696229E6D9DCAC"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 5.149999999999999d
+			y: 3.4000000000000004d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.22.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.22.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["4737D96A4B95633C", "32AB801F2B7CE17E"]
+			dependency_requirement: "one_completed"
+			id: "67D2FF836AA78484"
+			tasks: [{ id: "6409FC390EA1F1E7", type: "item", item: "rats:feral_rat_claw" }]
+			rewards: [
+				{
+					id: "4ED9EB0CC9C577D7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "3D4B529CEBD91DD7"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 3.4499999999999993d
+			y: 1.6500000000000004d
+			subtitle: "{ftbquests.custom_quests.rats.quests.23.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.23.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["4737D96A4B95633C", "32AB801F2B7CE17E"]
+			dependency_requirement: "one_completed"
+			id: "685BA318D635F0B0"
+			tasks: [{ id: "6E1CCCC6CFD03232", type: "item", item: "rats:ratglove_petals" }]
+			rewards: [
+				{
+					id: "6CFB12F198AB9052"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{
+					id: "6386B93978E00F25"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.24.title}"
+			x: 0.8999999999999986d
+			y: 5.9d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.24.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.24.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["5ACAD9826F2D6021", "685BA318D635F0B0", "67D2FF836AA78484"]
+			id: "26D855A753B2817A"
+			tasks: [
+				{ id: "338EC26A589F3500", type: "item", item: "rats:vial_of_sentience" }
+			]
+			rewards: [
+				{
+					id: "0D431D7C1F8FC0EA"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "59C1C57BEBB0E36A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: 5.050000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.25.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.25.description.0}"]
+			dependencies: ["26D855A753B2817A"]
+			id: "1BA6A057095E83AE"
+			tasks: [
+				{
+					id: "2D22983CFA8A7CD6"
+					type: "advancement"
+					title: "But Man am I Bad at Math"
+					icon: "rats:psionic_rat_brain"
+					advancement: "rats:ratlantis/neoratlantean"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "6EC947C36651C8C5"
+					type: "item"
+					item: "lootbagmod:lootbag"
+					random_bonus: 1
+				}
+				{ id: "6B2CD497CE1A1212", type: "item", item: "rats:token_fragment" }
+			]
+		}
+		{
+			x: 4.300000000000001d
+			y: 2.5d
+			subtitle: "{ftbquests.custom_quests.rats.quests.26.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.26.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["747500AF9C6C6852"]
+			id: "11BEE7F4515BDECB"
+			tasks: [{ id: "4CBC1E410D097FA9", type: "item", item: "rats:rat_attractor" }]
+			rewards: [
+				{
+					id: "16B896066165FACB"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{ id: "349AB272AD479640", type: "item", item: "kubejs:lootbag_piece" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.27.title}"
+			x: 0.8999999999999986d
+			y: 0.8000000000000007d
+			subtitle: "{ftbquests.custom_quests.rats.quests.27.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.27.description.0}"]
+			dependencies: ["747500AF9C6C6852"]
+			id: "707445E02B9B0792"
+			tasks: [{ id: "7E1228D5E31FAA8E", type: "item", item: "rats:auto_curdler" }]
+			rewards: [
+				{
+					id: "6CF7B33A783F90CB"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 2
+				}
+				{ id: "5E3ACFECE622A13D", type: "item", item: "kubejs:lootbag_piece" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.28.title}"
+			x: -0.8000000000000007d
+			y: 5.9d
+			subtitle: "{ftbquests.custom_quests.rats.quests.28.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.28.description.0}"]
+			dependencies: ["61E0CE831EE185C4"]
+			id: "056827D74CCDCE67"
+			tasks: [{ id: "04A50B93CD9D634C", type: "item", item: "rats:pied_garbage" }]
+			rewards: [
+				{
+					id: "2F10C1EA659E46A0"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 3
+				}
+				{ id: "21812A1736EAC7F9", type: "xp", xp: 25 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.29.title}"
+			x: 2.6000000000000014d
+			y: 2.5d
+			subtitle: "{ftbquests.custom_quests.rats.quests.29.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.29.description.0}"]
+			dependencies: ["2F0DD4CA1A4D1677", "5F49136B5FAA95DB"]
+			id: "169007EE91B5E27B"
+			tasks: [
+				{
+					id: "5D70E8C7E92CC6EB"
+					type: "item"
+					item: "rats:purified_garbage"
+					count: 8l
+				}
+			]
+			rewards: [
+				{
+					id: "5344B204CE554B2A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+					random_bonus: 3
+				}
+				{
+					id: "5F951F6B91B328D7"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.30.title}"
+			x: 1.75d
+			y: 1.6500000000000004d
+			subtitle: "{ftbquests.custom_quests.rats.quests.30.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.30.description.0}"]
+			dependencies: ["5E9137BC8C8B2242"]
+			id: "2F0DD4CA1A4D1677"
+			tasks: [
+				{ id: "01CC731E4E752959", type: "item", item: "rats:purifying_liquid" }
+			]
+			rewards: [
+				{
+					id: "5559E7DBD13D07AC"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 2
+				}
+				{ id: "66D63E97C8356EEB", type: "item", item: "kubejs:lootbag_piece", count: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.31.title}"
+			x: 4.300000000000001d
+			y: 5.9d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.31.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.31.description.0}"]
+			dependencies: ["5F49136B5FAA95DB"]
+			id: "581B76802703D2C6"
+			tasks: [
+				{ id: "0D8C65AD5391F051", type: "item", item: "rats:cursed_garbage", count: 8l }
+			]
+			rewards: [
+				{
+					id: "3471AD109E54000B"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+				{
+					id: "669B01F6FC2AF5D3"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.32.title}"
+			x: 0.05000000000000071d
+			y: 5.050000000000001d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.32.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.32.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["32AB801F2B7CE17E", "17789B0EAF6FED98"]
+			id: "1595782D1B54DCFC"
+			tasks: [
+				{
+					id: "13DD50D2C34699D8"
+					type: "advancement"
+					title: "Slay a Ratlantean Automaton"
+					icon: "rats:marbled_cheese_rat_head"
+					advancement: "rats:ratlantis/marbled_cheese_golem"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "708E51B8BEEF3B00", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "7DB8C8D29E52DA7A", type: "item", item: "rats:token_fragment" }
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.300000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.33.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.33.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "0C1C472F57AB3973"
+			tasks: [
+				{ id: "7F49C583D089DF0D", type: "item", item: "rats:rat_upgrade_jury_rigged" }
+			]
+			rewards: [
+				{
+					id: "767BDF62605F6A80"
+					type: "item"
+					item: "pneumaticcraft:bandage"
+					count: 8
+				}
+				{
+					id: "4C2F98D1E510F33F"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.8999999999999986d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.34.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.34.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "6A5B10F108AD6A73"
+			tasks: [
+				{ id: "6782415AB86AB6D5", type: "item", item: "rats:rat_upgrade_speed" }
+			]
+			rewards: [
+				{ id: "23C43374886E96D7", type: "item", item: "minecraft:redstone", count: 8 }
+				{
+					id: "57EAD22606C8C207"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -3.3500000000000014d
+			y: -1.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.35.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.35.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "658A2C1054391749"
+			tasks: [
+				{ id: "03B5E1A6D81C5268", type: "item", item: "rats:rat_upgrade_platter" }
+			]
+			rewards: [
+				{
+					id: "76D2CC5BB57C7CE0"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "578125B107F9D3B3", type: "xp", xp: 50 }
+			]
+		}
+		{
+			x: -0.8000000000000007d
+			y: -2.6000000000000014d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.36.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.36.description.0}"]
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "4E19BF8E03E54527"
+			tasks: [
+				{ id: "304FED6464DA0E4B", type: "item", item: "rats:rat_upgrade_health" }
+			]
+			rewards: [
+				{
+					id: "5B5CF05CD6636650"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: { Potion: "minecraft:strong_healing" }
+					}
+				}
+				{
+					id: "2704753581B4F742"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.8999999999999986d
+			y: -2.6000000000000014d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.37.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.37.description.0}"]
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "0A66F13DAFE61D97"
+			tasks: [
+				{ id: "2CA91AC46FE44948", type: "item", item: "rats:rat_upgrade_armor" }
+			]
+			rewards: [
+				{ id: "20E31B364FDC0078", type: "item", item: "minecraft:iron_ingot", count: 8 }
+				{
+					id: "25BF53041AA52625"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -0.75d
+			y: -7.649999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.38.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.38.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "56D81B1A756DA8C6"
+			tasks: [{ id: "37D3F7B2EB3AA8A5", type: "item", item: "rats:rat_upgrade_bow" }]
+			rewards: [
+				{
+					id: "0190E0DB843DFE12"
+					type: "item"
+					item: { id: "minecraft:bow", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "5537420B5CB4D270"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "0A179C8CCC0CA74A"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -1.6499999999999986d
+			y: -8.55d
+			subtitle: "{ftbquests.custom_quests.rats.quests.39.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.39.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "7D0BC9674567B7AF"
+			tasks: [
+				{ id: "0655E65110CA7834", type: "item", item: "rats:rat_upgrade_crossbow" }
+			]
+			rewards: [
+				{
+					id: "32D6B6B709725B8F"
+					type: "item"
+					item: { id: "minecraft:crossbow", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "27EBBA4C678E7E7E"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "11BDAE643650F4FD"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.9499999999999993d
+			y: -9.350000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.40.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.40.description.0}"
+				"{ftbquests.custom_quests.rats.quests.40.description.1}"
+				"{ftbquests.custom_quests.rats.quests.40.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "702B2730A6D134B0"
+			tasks: [
+				{ id: "64537836C5744DFC", type: "item", item: "rats:rat_upgrade_demon" }
+			]
+			rewards: [
+				{ id: "5F5625B8FCE2F8A2", type: "item", item: "rats:nether_cheese", count: 8 }
+				{
+					id: "156AA3CDDA0B0C47"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.05000000000000071d
+			y: -3.4499999999999993d
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "09A2A1FE89CEEE55"
+			tasks: [
+				{ id: "7AD7C85C92B8DDC4", type: "item", item: "rats:rat_upgrade_strength" }
+			]
+			rewards: [
+				{
+					id: "5F18AB8E724CA0F4"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: { Potion: "minecraft:strong_strength" }
+					}
+				}
+				{
+					id: "29211B538C137D9A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.05000000000000071d
+			y: -5.149999999999999d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.42.subtitle}"
+			dependencies: ["4E19BF8E03E54527", "09A2A1FE89CEEE55", "0A66F13DAFE61D97"]
+			id: "4882E64DB781DC76"
+			tasks: [
+				{ id: "1C3BCC806B889608", type: "item", item: "rats:rat_upgrade_warrior" }
+			]
+			rewards: [
+				{
+					id: "49739F51C928E9CE"
+					type: "item"
+					item: { id: "minecraft:diamond_sword", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0354E476A39C312C"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: -0.05000000000000071d
+			subtitle: "{ftbquests.custom_quests.rats.quests.43.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.43.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["6543A49805E5CF8A"]
+			id: "5E9137BC8C8B2242"
+			tasks: [
+				{ id: "392219BBDA18C95F", type: "item", item: "rats:golden_rat_skull" }
+			]
+			rewards: [
+				{ id: "3B374AF49DD3B88C", type: "item", item: "rats:rat_skull", count: 8 }
+				{
+					id: "0EBDD704B03BC7BA"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.44.title}"
+			x: 6.85d
+			y: 1.6500000000000004d
+			subtitle: "{ftbquests.custom_quests.rats.quests.44.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.44.description.0}"]
+			dependencies: ["3854DB64F6EB33E2"]
+			id: "6543A49805E5CF8A"
+			tasks: [{ id: "3F56162B375B875C", type: "item", item: "rats:rat_skull" }]
+			rewards: [
+				{
+					id: "442524435DB7D76F"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{
+					id: "56D5002B40CEA288"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 0.10000000000000142d
+			y: -6.800000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.45.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.45.description.0}"]
+			dependencies: ["4882E64DB781DC76"]
+			id: "2A823B1C1E1996A2"
+			tasks: [{ id: "50C80C2EE0268694", type: "item", item: "rats:rat_upgrade_god" }]
+			rewards: [
+				{ id: "5498C9CEBAFDC059", type: "item", item: "minecraft:nether_star" }
+				{
+					id: "5F9BBD4F81D284EE"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "2148428C2C582E5A", type: "item", item: "lootbagmod:lootbag" }
+			]
+		}
+		{
+			x: -5.050000000000001d
+			y: -1.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.46.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.46.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "7B05628E0FB054A8"
+			tasks: [
+				{ id: "6D18F96BF0A16CA1", type: "item", item: "rats:rat_upgrade_chef" }
+			]
+			rewards: [
+				{
+					id: "2B915754B40FFAF4"
+					type: "item"
+					item: "cookingforblockheads:recipe_book"
+				}
+				{
+					id: "7CCAF60472906F68"
+					type: "item"
+					item: { id: "rats:chef_toque", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "193DD31D207F3364"
+					type: "item"
+					item: { id: "cfm:spatula", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "48512B43BB442344"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.47.title}"
+			x: -5.899999999999999d
+			y: -2.6000000000000014d
+			subtitle: "{ftbquests.custom_quests.rats.quests.47.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.47.description.0}"]
+			dependencies: ["7B05628E0FB054A8"]
+			id: "10417B24A7D4346A"
+			tasks: [{ id: "4BB202A6E59316FB", type: "item", item: "rats:confit_byaldi" }]
+			rewards: [
+				{
+					id: "6659C28F230FCDE4"
+					type: "item"
+					item: "farmersdelight:ratatouille"
+					count: 8
+				}
+				{
+					id: "5E459CCF5EC8F69E"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 5
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -3.3500000000000014d
+			y: -5.149999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.48.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.48.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "20C12525092ED06E"
+			tasks: [
+				{ id: "1E289B099767FA19", type: "item", item: "rats:rat_upgrade_crafting" }
+			]
+			rewards: [
+				{ id: "4ECF5153A8588855", type: "item", item: "rats:block_of_cheese", count: 4 }
+				{
+					id: "6C7FD9B6A3131348"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -1.6499999999999986d
+			y: -1.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.49.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.49.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "3F37A5826EB1574D"
+			tasks: [
+				{ id: "55858F42E1FEBAE6", type: "item", item: "rats:rat_upgrade_blacklist" }
+			]
+			rewards: [
+				{ id: "0A2EA2F5DEEE2732", type: "item", item: "cyclic:carbon_paper", count: 8 }
+				{
+					id: "6124BFC2B07A9BBC"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.50.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.50.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "2F52B2F1BF984B1B"
+			tasks: [
+				{ id: "51D4EAE6D1270B04", type: "item", item: "rats:rat_upgrade_whitelist" }
+			]
+			rewards: [
+				{ id: "38C788FB5BD3D46E", type: "item", item: "minecraft:paper", count: 8 }
+				{
+					id: "30ADD8B24661FFAD"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 2.6000000000000014d
+			y: -5.949999999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.51.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.51.description.0}"]
+			dependencies: ["30D8A2AFA9F78D95"]
+			id: "666AC2CA3D5C7781"
+			tasks: [
+				{ id: "0B2450D7E5FF7B82", type: "item", item: "rats:rat_upgrade_replanter" }
+			]
+			rewards: [
+				{
+					id: "6F0206CB3C9AE649"
+					type: "item"
+					item: "pamhc2crops:soybeanseeditem"
+					count: 16
+				}
+				{
+					id: "372D197FAB763DEB"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.52.title}"
+			x: 2.6000000000000014d
+			y: -2.6000000000000014d
+			subtitle: "{ftbquests.custom_quests.rats.quests.52.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.52.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "6DD2E40EEB90DA20"
+			tasks: [
+				{ id: "72AE05277E93A38E", type: "item", item: "rats:rat_upgrade_flight" }
+			]
+			rewards: [
+				{ id: "2EB9DC1CA7700720", type: "item", item: "minecraft:feather", count: 8 }
+				{
+					id: "0EF9AC20FD4E176A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 2.6000000000000014d
+			y: -4.300000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.53.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.53.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "7C5115B2A4BC5202"
+			tasks: [
+				{ id: "69A9099619EA924A", type: "item", item: "rats:rat_upgrade_asbestos" }
+			]
+			rewards: [
+				{
+					id: "48DC263CB9ABFB9E"
+					type: "item"
+					item: { id: "minecraft:flint_and_steel", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "5603210E1E65E1C3"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: -3.4499999999999993d
+			description: ["{ftbquests.custom_quests.rats.quests.54.description.0}"]
+			dependencies: ["4882E64DB781DC76", "6DD2E40EEB90DA20", "7C5115B2A4BC5202"]
+			id: "34D13168717D6D5B"
+			tasks: [
+				{ id: "7338A06756EA34E7", type: "item", item: "rats:rat_upgrade_dragon" }
+			]
+			rewards: [
+				{
+					id: "43126B95D60B8757"
+					type: "item"
+					item: "iceandfire:dragonscales_red"
+					count: 8
+				}
+				{
+					id: "5982681E6A1D8BC9"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "5B7E1D286F52B48A"
+					type: "item"
+					item: "engineersdecor:sign_firehazard"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: -1.75d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.55.subtitle}"
+			dependencies: ["6DD2E40EEB90DA20"]
+			id: "5796682D281376E8"
+			tasks: [{ id: "7553222B2A9EF674", type: "item", item: "rats:rat_upgrade_bee" }]
+			rewards: [
+				{
+					id: "79D745C45F883A2F"
+					type: "item"
+					item: "minecraft:honey_bottle"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "6870307AD1191198"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 4.300000000000001d
+			y: -2.6000000000000014d
+			subtitle: "{ftbquests.custom_quests.rats.quests.56.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.56.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "6237FCD139CDB3FB"
+			tasks: [
+				{ id: "7461842E187E8772", type: "item", item: "rats:rat_upgrade_underwater" }
+			]
+			rewards: [
+				{
+					id: "3F78B27BC1B35912"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: { Potion: "minecraft:long_water_breathing" }
+					}
+				}
+				{
+					id: "77D3A8BA6CE581E2"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 4.300000000000001d
+			y: -4.300000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.57.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.57.description.0}"]
+			dependencies: ["6237FCD139CDB3FB"]
+			id: "18AD4F0E42B888CA"
+			tasks: [
+				{ id: "0E29BCB551C54B42", type: "item", item: "rats:rat_upgrade_aquatic" }
+			]
+			rewards: [
+				{ id: "09D06B5C759ECD50", type: "item", item: "alexsmobs:blobfish_bucket" }
+				{
+					id: "07D2DC39D1B3944D"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 9.4d
+			y: -2.6000000000000014d
+			subtitle: "{ftbquests.custom_quests.rats.quests.58.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.58.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "64D02686EBC5CDB3"
+			tasks: [
+				{ id: "6B61E98940BEC092", type: "item", item: "rats:rat_upgrade_ender" }
+			]
+			rewards: [
+				{
+					id: "2020C718803A2657"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 8
+				}
+				{
+					id: "4C733D3FFA6CCF8A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.4499999999999993d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.59.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.59.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "70D8CE7F1BCE52B0"
+			tasks: [
+				{ id: "235BDD8311C670B9", type: "item", item: "rats:rat_upgrade_lumberjack" }
+			]
+			rewards: [
+				{
+					id: "3960D9042BD5BF94"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "641C8C0094718BBC"
+					type: "item"
+					item: { id: "minecraft:diamond_axe", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+		}
+		{
+			x: -0.8000000000000007d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.60.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.60.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "55B033609DABD73F"
+			tasks: [
+				{ id: "3D92899F8332D290", type: "item", item: "rats:rat_upgrade_miner_ore" }
+			]
+			rewards: [
+				{
+					id: "4CB0E04BE0A8E3CA"
+					type: "item"
+					item: { id: "minecraft:iron_pickaxe", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "6D7A1E6E3EB518F9"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -1.6499999999999986d
+			y: -6.850000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.61.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.61.description.0}"]
+			dependencies: ["55B033609DABD73F"]
+			id: "17DD1EE8A3FD93AE"
+			tasks: [
+				{ id: "71F4437482108906", type: "item", item: "rats:rat_upgrade_miner" }
+			]
+			rewards: [
+				{
+					id: "1B052FB48652A9CF"
+					type: "item"
+					item: { id: "minecraft:diamond_pickaxe", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "5B7B282F02310BD3"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "16536E4E55927BFF"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			icon: "rats:rat_upgrade_quarry"
+			x: -2.5d
+			y: -7.699999999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.62.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.62.description.0}"]
+			dependencies: ["17DD1EE8A3FD93AE"]
+			id: "156F1831806203A8"
+			tasks: [
+				{ id: "1A3F03554CA6FB21", type: "item", item: "rats:rat_upgrade_quarry" }
+				{ id: "5C0E1A67F34E9A22", type: "item", item: "rats:rat_quarry" }
+			]
+			rewards: [
+				{
+					id: "52C15B60FB4B2C86"
+					type: "item"
+					item: "rats:block_of_blue_cheese"
+					count: 4
+				}
+				{
+					id: "516BA259BD712DA5"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "3CF8BFFDEC26C64B", type: "item", item: "lootbagmod:lootbag" }
+			]
+		}
+		{
+			x: 1.75d
+			y: -6.800000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.63.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.63.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "30D8A2AFA9F78D95"
+			tasks: [
+				{ id: "4AD442B76E41663B", type: "item", item: "rats:rat_upgrade_farmer" }
+			]
+			rewards: [
+				{
+					id: "7608DBED8F1FCF6C"
+					type: "item"
+					item: { id: "minecraft:iron_hoe", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "3E514F065C9647B5"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "050B033A590722D3", type: "item", item: "kubejs:lootbag_piece" }
+			]
+		}
+		{
+			x: 0.9499999999999993d
+			y: -7.649999999999999d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.64.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.64.description.0}"]
+			dependencies: ["30D8A2AFA9F78D95"]
+			id: "30C44C3E4FB96277"
+			tasks: [
+				{ id: "2EAB565BADF52379", type: "item", item: "rats:rat_upgrade_breeder" }
+			]
+			rewards: [
+				{
+					id: "33D52DEE009753F2"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 8
+				}
+				{
+					id: "7F43CA9984EFDF28"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "581787E52E80ECAB"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 2.6000000000000014d
+			y: -7.649999999999999d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.65.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.65.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "19BBE23C3595B5BF"
+			tasks: [
+				{ id: "2CB171F063D621B6", type: "item", item: "rats:rat_upgrade_fisherman" }
+			]
+			rewards: [
+				{
+					id: "46B124A806C5800C"
+					type: "item"
+					item: { id: "minecraft:fishing_rod", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "2E5AC8A7624ED8C4"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "0A972079ECA85EB1"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 3.4499999999999993d
+			y: -1.75d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "51990D5CE9D2DD39"
+			tasks: [
+				{ id: "7A5FA024D0D0E376", type: "item", item: "rats:rat_upgrade_poison" }
+			]
+			rewards: [
+				{ id: "62F1673FA20F96C2", type: "item", item: "ars_nouveau:potion_flask" }
+				{
+					id: "5ED7536E8C5C7624"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 3.4499999999999993d
+			y: -3.4499999999999993d
+			subtitle: "{ftbquests.custom_quests.rats.quests.67.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.67.description.0}"]
+			dependencies: ["7C5115B2A4BC5202", "6237FCD139CDB3FB", "51990D5CE9D2DD39"]
+			id: "264205BBF7323B16"
+			tasks: [
+				{
+					id: "5598B0100CB23D97"
+					type: "item"
+					item: "rats:rat_upgrade_damage_protection"
+				}
+			]
+			rewards: [
+				{
+					id: "0C7FE66F0AC0C97A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: { Potion: "apotheosis:strong_resistance" }
+					}
+				}
+				{
+					id: "22ED94756BD686A4"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 4.300000000000001d
+			y: -6.0d
+			subtitle: "{ftbquests.custom_quests.rats.quests.68.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.68.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "30B667768D11F74D"
+			tasks: [
+				{
+					id: "38A53A3CAFD2B1B8"
+					type: "item"
+					item: "rats:rat_upgrade_ore_doubling"
+				}
+			]
+			rewards: [
+				{ id: "68A57FB568E414A6", type: "item", item: "minecraft:iron_ore", count: 16 }
+				{
+					id: "0561C46217A89749"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 5.149999999999999d
+			y: -1.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.69.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.69.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "773EF6D89D58896B"
+			tasks: [
+				{
+					id: "71788F09738BCF18"
+					type: "item"
+					item: "rats:rat_upgrade_basic_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "054AD65E5389F2D7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+				{
+					id: "287FBC6F28A377E2"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 5.149999999999999d
+			y: -3.4499999999999993d
+			subtitle: "{ftbquests.custom_quests.rats.quests.70.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.70.description.0}"]
+			dependencies: ["773EF6D89D58896B"]
+			id: "67F0C240C4BFB3F2"
+			tasks: [
+				{
+					id: "6D17957053F5CB8E"
+					type: "item"
+					item: "rats:rat_upgrade_advanced_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "20B09814A507CA04"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+					random_bonus: 2
+				}
+				{
+					id: "2661FB85B73A1D6C"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 5.149999999999999d
+			y: -5.149999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.71.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.71.description.0}"]
+			dependencies: ["67F0C240C4BFB3F2"]
+			id: "78DC64B07A97BD2E"
+			tasks: [
+				{
+					id: "1A63C87BBC5C84C7"
+					type: "item"
+					item: "rats:rat_upgrade_elite_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "30EF1E373D12C9CF"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 4
+				}
+				{ id: "13B798B98330ECE2", type: "item", item: "rats:tiny_coin", count: 8 }
+			]
+		}
+		{
+			x: 5.149999999999999d
+			y: -6.850000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.72.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.72.description.0}"]
+			dependencies: ["78DC64B07A97BD2E"]
+			id: "4D5F2040E4F6E790"
+			tasks: [
+				{
+					id: "1F610CDCA068CF4B"
+					type: "item"
+					item: "rats:rat_upgrade_extreme_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "2C07BCD5028D8860"
+					type: "item"
+					item: {
+						id: "thermal:energy_cell"
+						Count: 1b
+						tag: {
+							BlockEntityTag: { EnergyMax: 1000000, EnergySend: 1000, Energy: 0, EnergyRecv: 1000 }
+						}
+					}
+					count: 2
+				}
+				{
+					id: "19D1CD7855C40552"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.8999999999999986d
+			y: -4.300000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.73.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.73.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "34BD0AA08EA14ABB"
+			tasks: [
+				{ id: "21DF2A82A160F7C8", type: "item", item: "rats:rat_upgrade_bucket" }
+			]
+			rewards: [
+				{ id: "465060AAEF77F0E5", type: "item", item: "minecraft:bucket" }
+				{
+					id: "607EED25732AD37F"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: -5.100000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.74.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.74.description.0}"]
+			dependencies: ["34BD0AA08EA14ABB"]
+			id: "7F796FA4E5B3206E"
+			tasks: [
+				{ id: "0AB7C101EFAD4D7A", type: "item", item: "rats:rat_upgrade_big_bucket" }
+			]
+			rewards: [
+				{ id: "505BEC33DE1175F7", type: "item", item: "fluidtank:tank_iron" }
+				{
+					id: "429B92026F48648A"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.9499999999999993d
+			y: -5.949999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.75.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.75.description.0}"]
+			dependencies: ["34BD0AA08EA14ABB"]
+			id: "2957C5A38E79A7FF"
+			tasks: [
+				{ id: "01BF9BD4F05E3138", type: "item", item: "rats:rat_upgrade_milker" }
+			]
+			rewards: [
+				{
+					id: "5F3FE53342EFC62A"
+					type: "item"
+					item: "minecraft:cow_spawn_egg"
+					count: 3
+				}
+				{
+					id: "639D708840F208F9"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 3.4499999999999993d
+			y: -5.149999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.76.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.76.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "652A155763BB8443"
+			tasks: [
+				{ id: "3333FD65DF60BB7A", type: "item", item: "rats:rat_upgrade_shears" }
+			]
+			rewards: [
+				{
+					id: "232A44ACB29DC3FB"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 16
+				}
+				{
+					id: "7DC1ADCD6525FF73"
+					type: "item"
+					item: { id: "minecraft:shears", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "0AC8F69FC0275ABE"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -0.8000000000000007d
+			y: -4.300000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.77.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.77.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D", "5E9137BC8C8B2242"]
+			id: "0A86781DA620B3CD"
+			tasks: [
+				{ id: "68AF30DADFBD837E", type: "item", item: "rats:rat_upgrade_aristocrat" }
+			]
+			rewards: [
+				{ id: "43B6F9BD08DD3A74", type: "item", item: "minecraft:gold_ingot", count: 8 }
+				{
+					id: "44D32937603E07B4"
+					type: "item"
+					item: { id: "extcaves:wooden_cane", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "4E7234B2628CE0B2"
+					type: "item"
+					item: { id: "eidolon:top_hat", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "27ECA91657A60450"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.6000000000000014d
+			subtitle: "{ftbquests.custom_quests.rats.quests.78.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "1DD9492F92F7ED87"
+			tasks: [{ id: "1F6812A3CDB317D0", type: "item", item: "rats:rat_upgrade_tnt" }]
+			rewards: [
+				{
+					id: "5668EC8F11E1E8E2"
+					type: "item"
+					item: "appliedenergistics2:tiny_tnt"
+					count: 8
+				}
+				{
+					id: "67F9930FBB82CE17"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -4.149999999999999d
+			y: -2.6000000000000014d
+			subtitle: "{ftbquests.custom_quests.rats.quests.79.subtitle}"
+			dependencies: ["1DD9492F92F7ED87"]
+			id: "4B79ACB1D2AE618F"
+			tasks: [
+				{
+					id: "5A4C46A1DF76E4D9"
+					type: "item"
+					item: "rats:rat_upgrade_tnt_survivor"
+				}
+			]
+			rewards: [
+				{
+					id: "328C704C72EC5956"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: { StoredEnchantments: [{ lvl: 3s, id: "minecraft:blast_protection" }] }
+					}
+				}
+				{
+					id: "4D7BDFDD2D59BD8F"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 4.300000000000001d
+			y: -0.8999999999999986d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.80.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "18BCAEBF953C38DA"
+			tasks: [
+				{ id: "6DBC66E289F9BA2D", type: "item", item: "rats:rat_upgrade_placer" }
+			]
+			rewards: [
+				{ id: "41A906E8E9C33973", type: "item", item: "minecraft:grass_block" }
+				{
+					id: "6D50F1F57C2D91B4"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -1.6499999999999986d
+			y: -3.4499999999999993d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.81.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.81.description.0}"]
+			dependencies: ["4E19BF8E03E54527"]
+			id: "23574FA69FCE98BD"
+			tasks: [
+				{ id: "20A2B889532D1D40", type: "item", item: "rats:rat_upgrade_voodoo" }
+			]
+			rewards: [
+				{ id: "605A6F5F2F67BEFA", type: "item", item: "minecraft:totem_of_undying" }
+				{
+					id: "65D7F137948BD786"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -5.899999999999999d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.82.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.82.description.0}"
+				"{ftbquests.custom_quests.rats.quests.82.description.1}"
+				"{ftbquests.custom_quests.rats.quests.82.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "368CF7838A8E8DCB"
+			tasks: [
+				{ id: "27C001A10670579B", type: "item", item: "rats:rat_upgrade_gemcutter" }
+			]
+			rewards: [
+				{
+					id: "5C07E84DDF49E44B"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "733ACD4F90695EB1", type: "xp", xp: 50 }
+			]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			subtitle: "{ftbquests.custom_quests.rats.quests.83.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.83.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "2E10422A55CC5DDF"
+			tasks: [
+				{ id: "50DFBD4A7B483984", type: "item", item: "rats:rat_upgrade_enchanter" }
+			]
+			rewards: [
+				{
+					id: "402AC9BFDFFFB3C5"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 32
+				}
+				{
+					id: "4253F588731099A7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -3.3500000000000014d
+			y: -6.850000000000001d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.84.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.84.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "60BA0FC9370A20F8"
+			tasks: [
+				{
+					id: "40693A1D65FF4C4B"
+					type: "item"
+					item: "rats:rat_upgrade_disenchanter"
+				}
+			]
+			rewards: [
+				{ id: "1C4C30A4F429BCEA", type: "item", item: "minecraft:book", count: 8 }
+				{
+					id: "01C6CB70D58229D6"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -3.3500000000000014d
+			y: -3.4499999999999993d
+			subtitle: "{ftbquests.custom_quests.rats.quests.85.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.85.description.0}"
+				"{ftbquests.custom_quests.rats.quests.85.description.1}"
+				"{ftbquests.custom_quests.rats.quests.85.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "14CC92CB0068E114"
+			tasks: [
+				{ id: "0FB7F241F2E2FB42", type: "item", item: "rats:rat_upgrade_christmas" }
+			]
+			rewards: [
+				{ id: "01AEF65B85346372", type: "item", item: "minecraft:snowball", count: 16 }
+				{
+					id: "16C43ABC1CCBBD2E"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.86.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "5E808D80D35D3106"
+			tasks: [
+				{ id: "34CFF383A99563B2", type: "item", item: "rats:rat_upgrade_no_flute" }
+			]
+			rewards: [
+				{ id: "307B9E954A458CC0", type: "item", item: "rats:rat_flute" }
+				{
+					id: "46DA5D5D60B2CAC2"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 3.4499999999999993d
+			y: -6.800000000000001d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.87.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.87.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "257645FE7B15DC8C"
+			tasks: [
+				{ id: "5261DBF33849F5D3", type: "item", item: "rats:rat_upgrade_carrat" }
+			]
+			rewards: [
+				{
+					id: "706F27663930D138"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "2B19227234D9625F"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 1.8000000000000007d
+			y: -8.5d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.88.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.88.description.0}"]
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "52E75443181505A0"
+			tasks: [
+				{ id: "7B70F8000D97842C", type: "item", item: "rats:rat_upgrade_angel" }
+			]
+			rewards: [
+				{
+					id: "7AE8C82E0A9D4854"
+					type: "item"
+					item: "xreliquary:angelheart_vial"
+					count: 3
+				}
+				{
+					id: "348C88A383FA1FD7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 7.699999999999999d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.89.subtitle}"
+			hide_dependency_lines: true
+			dependencies: ["69BBEB41F56F7A5D"]
+			id: "775B51639252BCF2"
+			tasks: [
+				{ id: "1FAC43FD5DAD3E8A", type: "item", item: "rats:rat_upgrade_undead" }
+			]
+			rewards: [
+				{ id: "0AD3FE57409FDB39", type: "item", item: "rats:rat_skull", count: 8 }
+				{ id: "36D4865FC434B707", type: "item", item: "minecraft:bone", count: 8 }
+				{
+					id: "412D218620CBD068"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 6.85d
+			y: -3.4499999999999993d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.90.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.90.description.0}"
+				"{ftbquests.custom_quests.rats.quests.90.description.1}"
+				"{ftbquests.custom_quests.rats.quests.90.description.2}"
+			]
+			hide_dependency_lines: true
+			id: "2BBE984783199446"
+			tasks: [
+				{ id: "0C6F6984EE10FFDF", type: "item", item: "rats:rat_upgrade_basic_mount" }
+			]
+			rewards: [
+				{
+					id: "0C05D3F4DEE30C0E"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "6627D88DE349594D"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 1
+				}
+				{ id: "6FF16EDFE0F52412", type: "item", item: "minecraft:saddle" }
+			]
+		}
+		{
+			x: 7.699999999999999d
+			y: -4.300000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.91.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.91.description.0}"]
+			dependencies: ["2BBE984783199446"]
+			id: "5495A9A151FFC18D"
+			tasks: [
+				{
+					id: "3715D684B6AEBD23"
+					type: "item"
+					item: "rats:rat_upgrade_chicken_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "42751FEE09D55F4C"
+					type: "item"
+					item: "minecraft:egg"
+					count: 8
+					random_bonus: 4
+				}
+				{
+					id: "43612E3732F77846"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 7.699999999999999d
+			y: -2.6000000000000014d
+			subtitle: "{ftbquests.custom_quests.rats.quests.92.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.92.description.0}"]
+			dependencies: ["2BBE984783199446"]
+			id: "786C310FDF621934"
+			tasks: [
+				{ id: "233801E4C491747D", type: "item", item: "rats:rat_upgrade_golem_mount" }
+			]
+			rewards: [
+				{ id: "51FE97731F7765F4", type: "item", item: "minecraft:jack_o_lantern" }
+				{ id: "4D8F3C1401C118CE", type: "item", item: "minecraft:poppy" }
+				{
+					id: "1C717A64BE791F13"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 6.050000000000001d
+			y: -4.300000000000001d
+			subtitle: "{ftbquests.custom_quests.rats.quests.93.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.93.description.0}"]
+			dependencies: ["2BBE984783199446"]
+			id: "1F388997142881D7"
+			tasks: [
+				{
+					id: "46C97C0BA797ACA4"
+					type: "item"
+					item: "rats:rat_upgrade_strider_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "76BEC72511412F5E"
+					type: "item"
+					item: { id: "minecraft:warped_fungus_on_a_stick", Count: 1b, tag: { Damage: 0 } }
+				}
+				{
+					id: "25C613F8BA645753"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 6.85d
+			y: -1.6999999999999993d
+			subtitle: "{ftbquests.custom_quests.rats.quests.94.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.94.description.0}"]
+			dependencies: ["2BBE984783199446"]
+			id: "1F032F3B1246D1D8"
+			tasks: [
+				{ id: "459289BEB1D06152", type: "item", item: "rats:rat_upgrade_beast_mount" }
+			]
+			rewards: [
+				{ id: "39FA9B29B98BA907", type: "item", item: "rats:feral_rat_claw", count: 8 }
+				{
+					id: "431A227A69AA3549"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -1.6000000000000014d
+			y: -0.05000000000000071d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.95.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.95.description.0}"]
+			dependencies: ["0988C250E701FB67"]
+			id: "34C2FFBCE63ED5B1"
+			tasks: [
+				{ id: "6CE05758D22B4072", type: "item", item: "rats:rat_upgrade_combined" }
+			]
+			rewards: [
+				{ id: "3958DD7E325B92A0", type: "item", item: "rats:rat_upgrade_combined" }
+				{
+					id: "4D9A274AA6878737"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -1.6499999999999986d
+			y: 1.6500000000000004d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.96.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.96.description.0}"]
+			hide_dependency_lines: true
+			min_required_dependencies: 2
+			dependencies: ["32AB801F2B7CE17E", "4737D96A4B95633C", "5E466D6671FD67BD"]
+			id: "0988C250E701FB67"
+			tasks: [
+				{
+					id: "76E8FB8562439919"
+					type: "item"
+					item: "rats:rat_upgrade_basic_ratlantean"
+				}
+			]
+			rewards: [
+				{
+					id: "0A720E726D5E7C47"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 6
+					random_bonus: 4
+				}
+				{
+					id: "614F8D28DBEDD0FC"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 6.85d
+			y: -5.149999999999999d
+			subtitle: "{ftbquests.custom_quests.rats.quests.97.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.97.description.0}"]
+			dependencies: ["2BBE984783199446"]
+			id: "1693CC3B55C9D4E0"
+			tasks: [
+				{
+					id: "5243889E8728413E"
+					type: "item"
+					item: "rats:rat_upgrade_automaton_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "5B8689F405B18A8C"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 5
+					random_bonus: 3
+				}
+				{ id: "40EA5F13AB9D51D1", type: "item", item: "rats:ancient_sawblade" }
+			]
+		}
+		{
+			x: 8.55d
+			y: -3.4499999999999993d
+			subtitle: "{ftbquests.custom_quests.rats.quests.98.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.98.description.0}"]
+			dependencies: ["3406A6F702BC6B78", "2BBE984783199446"]
+			id: "583303FAEB473148"
+			tasks: [
+				{
+					id: "56B8A846173EAC70"
+					type: "item"
+					item: "rats:rat_upgrade_biplane_mount"
+				}
+			]
+			rewards: [
+				{ id: "6EC496425D420D97", type: "item", item: "rats:biplane_wing" }
+				{
+					id: "40E3BF7D04230993"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 5
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.199999999999999d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.99.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.99.description.0}"]
+			dependencies: ["0988C250E701FB67"]
+			id: "1C46CCCA8421B5A2"
+			tasks: [
+				{ id: "0CBA7A3FAABD9611", type: "item", item: "rats:rat_upgrade_feral_bite" }
+			]
+			rewards: [
+				{
+					id: "5D8FF6CD20496D5D"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 1
+				}
+				{
+					id: "0B293788804676D2"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -3.3500000000000014d
+			y: 1.6500000000000004d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.100.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.100.description.0}"]
+			dependencies: ["0988C250E701FB67"]
+			id: "5526ECD8E941F061"
+			tasks: [
+				{ id: "193B6CE9E8F2D386", type: "item", item: "rats:rat_upgrade_buccaneer" }
+			]
+			rewards: [
+				{
+					id: "3AE25BB9463BC7D7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "5FA19927C257D838"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -4.199999999999999d
+			y: 2.5d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.101.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.101.description.0}"]
+			dependencies: ["0988C250E701FB67"]
+			id: "5F1C4980A16C740D"
+			tasks: [
+				{ id: "4476B8B90355FAF4", type: "item", item: "rats:rat_upgrade_ratinator" }
+			]
+			rewards: [
+				{
+					id: "7E726D6E56566080"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "1DB86D184A095B35"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -1.6499999999999986d
+			y: 3.3499999999999996d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.102.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.102.description.0}"]
+			dependencies: ["0988C250E701FB67"]
+			id: "69498D98DE7E089C"
+			tasks: [
+				{ id: "16C18738ACB15899", type: "item", item: "rats:rat_upgrade_psychic" }
+			]
+			rewards: [
+				{
+					id: "66A04FDA99CAD7B0"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+				{
+					id: "77389CAE684ABA0F"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -3.3500000000000014d
+			y: 3.3499999999999996d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.103.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.103.description.0}"]
+			dependencies: ["0988C250E701FB67"]
+			id: "33A85677424882E4"
+			tasks: [
+				{ id: "7312B709B9D0EA20", type: "item", item: "rats:rat_upgrade_ethereal" }
+			]
+			rewards: [
+				{
+					id: "718FCED5567E1330"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+				{
+					id: "51FC52AD1560FF29"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 0.10000000000000142d
+			y: -8.5d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.104.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.104.description.0}"]
+			dependencies: ["2A823B1C1E1996A2"]
+			id: "1071A78E6781AB1E"
+			tasks: [
+				{ id: "5025CB64045CBDF1", type: "item", item: "rats:rat_upgrade_nonbeliever" }
+			]
+			rewards: [
+				{ id: "6C83253439B5E66D", type: "item", item: "lootbagmod:lootbag", count: 2 }
+				{
+					id: "4D810CB5A4D26A6B"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "23F0D7DA31EB2BC1", type: "item", item: "rats:corrupt_rat_skull" }
+			]
+		}
+		{
+			x: 1.75d
+			y: 3.3499999999999996d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.105.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.105.description.0}"]
+			dependencies: ["72AF9F77E31A5F2B"]
+			id: "39F99B56738DA424"
+			tasks: [
+				{ id: "7B1164C70C3F517D", type: "item", item: "rats:corrupt_rat_skull" }
+			]
+			rewards: [
+				{ id: "089B88A60FC5E146", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "61D69F622B127EBB", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 4.300000000000001d
+			y: 4.199999999999999d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.106.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.106.description.0}"]
+			id: "46B890A27D9D3638"
+			tasks: [{ id: "703A9DB7B44E68E1", type: "item", item: "rats:plague_tome" }]
+			rewards: [
+				{
+					id: "4BDD6ED0CDFE9FE3"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "0D759C0263469707"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 4
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.107.title}"
+			icon: { id: "rats:black_death_mask", Count: 1b, tag: { Damage: 0 } }
+			x: 3.4499999999999993d
+			y: 3.3499999999999996d
+			subtitle: "{ftbquests.custom_quests.rats.quests.107.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.107.description.0}"]
+			dependencies: ["46B890A27D9D3638"]
+			id: "3459AC0AC656BCAC"
+			tasks: [
+				{
+					id: "57AA1ACF6F684642"
+					type: "advancement"
+					advancement: "rats:rats/defeat_black_death"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "629FD716FA74B8BC", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "576F2CCDEFA10E23", type: "item", item: "rats:token_fragment" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.108.title}"
+			x: -4.199999999999999d
+			y: -0.8999999999999986d
+			subtitle: "{ftbquests.custom_quests.rats.quests.108.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.108.description.0}"]
+			dependencies: ["368CF7838A8E8DCB"]
+			id: "003F2292184BBE08"
+			tasks: [
+				{
+					id: "2B96DD7F34E11145"
+					type: "item"
+					item: "rats:little_black_squash_balls"
+					count: 6l
+				}
+			]
+			rewards: [
+				{
+					id: "16BCBAFF639F92D9"
+					type: "item"
+					item: "rats:little_black_squash_balls"
+					count: 6
+					random_bonus: 4
+				}
+				{
+					id: "4F3CD4F20A699F19"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.109.title}"
+			x: -3.3500000000000014d
+			y: -0.05000000000000071d
+			subtitle: "{ftbquests.custom_quests.rats.quests.109.subtitle}"
+			id: "29CACC0C2E759BB6"
+			tasks: [
+				{ id: "2878E99CD17D2C25", type: "item", item: "rats:potato_pancake", count: 3l }
+			]
+			rewards: [
+				{
+					id: "2FB8A7013ECD1EF6"
+					type: "item"
+					item: "rats:potato_pancake"
+					count: 8
+					random_bonus: 4
+				}
+				{
+					id: "16EC807A81A79587"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.110.title}"
+			x: -6.75d
+			y: -0.05000000000000071d
+			subtitle: "{ftbquests.custom_quests.rats.quests.110.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.110.description.0}"]
+			dependencies: ["51CF231390E66DA2"]
+			id: "765ACE9CB332504D"
+			tasks: [{ id: "6297CB6C6F1147FD", type: "item", item: "rats:centipede" }]
+			rewards: [
+				{
+					id: "17C82EDC6AC52FDD"
+					type: "item"
+					item: "rats:centipede"
+					count: 7
+					random_bonus: 4
+				}
+				{
+					id: "2C53BC595241756E"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.111.title}"
+			x: -5.050000000000001d
+			y: -0.05000000000000071d
+			subtitle: "{ftbquests.custom_quests.rats.quests.111.subtitle}"
+			dependencies: ["003F2292184BBE08", "29CACC0C2E759BB6"]
+			id: "51CF231390E66DA2"
+			tasks: [
+				{ id: "1D0F2ED7E59BA61B", type: "item", item: "rats:little_black_worm" }
+			]
+			rewards: [
+				{
+					id: "1A8F031EFD2EC88D"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 2
+				}
+				{ id: "5AA1BF94EF01DF54", type: "item", item: "kubejs:lootbag_piece" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.112.title}"
+			x: -6.75d
+			y: -1.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.112.subtitle}"
+			dependencies: ["765ACE9CB332504D", "7B05628E0FB054A8"]
+			id: "596ED53518937A7D"
+			tasks: [{ id: "46B2F9D599D5C4D6", type: "item", item: "rats:potato_kinishes" }]
+			rewards: [
+				{
+					id: "66402A65E333B8FC"
+					type: "item"
+					item: "simplefarming:potato_knish"
+					count: 8
+				}
+				{
+					id: "7696F521305D164C"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 5
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 3.4499999999999993d
+			y: -0.05000000000000071d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.113.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.113.description.0}"]
+			dependencies: ["5E9137BC8C8B2242"]
+			id: "0CF96747DBA65980"
+			tasks: [
+				{ id: "00C9566E0D870389", type: "item", item: "rats:ratlantis_rat_skull" }
+			]
+			rewards: [
+				{ id: "3AC9D013B3CB603C", type: "item", item: "rats:token_piece" }
+				{ id: "5C12895C9BF07189", type: "xp_levels", xp_levels: 10 }
+			]
+		}
+		{
+			x: 2.6000000000000014d
+			y: 0.8000000000000007d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.114.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.114.description.0}"
+				"{ftbquests.custom_quests.rats.quests.114.description.1}"
+				"{ftbquests.custom_quests.rats.quests.114.description.2}"
+			]
+			dependencies: ["685BA318D635F0B0"]
+			id: "17789B0EAF6FED98"
+			tasks: [
+				{ id: "336D916085E96B65", type: "item", item: "rats:gem_of_ratlantis" }
+			]
+			rewards: [
+				{
+					id: "7C3729D4747F03AF"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{
+					id: "51D5A0FC1CF051AA"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.8000000000000007d
+			subtitle: "{ftbquests.custom_quests.rats.quests.115.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.rats.quests.115.description.0}"
+				"{ftbquests.custom_quests.rats.quests.115.description.1}"
+				"{ftbquests.custom_quests.rats.quests.115.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["32AB801F2B7CE17E", "4737D96A4B95633C"]
+			dependency_requirement: "one_completed"
+			id: "5E466D6671FD67BD"
+			tasks: [
+				{ id: "305E885D85D6C4B2", type: "item", item: "rats:upgrade_combiner" }
+			]
+			rewards: [
+				{
+					id: "7C8922B76D0EECEC"
+					type: "item"
+					item: "rats:gem_of_ratlantis"
+					count: 8
+				}
+				{ id: "423496D547B39EA1", type: "item", item: "rats:rat_upgrade_combined" }
+				{
+					id: "0A77BA32625929F7"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 3
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: 5.149999999999999d
+			y: -0.05000000000000071d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.116.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.116.description.0}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0CF96747DBA65980"
+				"17789B0EAF6FED98"
+				"5ACAD9826F2D6021"
+				"67D2FF836AA78484"
+			]
+			id: "095A0867BD78E642"
+			tasks: [
+				{ id: "1B8504304DD4159C", type: "item", item: "rats:idol_of_ratlantis" }
+			]
+			rewards: [
+				{ id: "5C32290ABA83BA0F", type: "item", item: "rats:token_piece" }
+				{ id: "66B287624AC40228", type: "xp_levels", xp_levels: 10 }
+			]
+		}
+		{
+			x: 3.4499999999999993d
+			y: 6.75d
+			subtitle: "{ftbquests.custom_quests.rats.quests.117.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.117.description.0}"]
+			dependencies: ["5F49136B5FAA95DB"]
+			id: "692AAF04F3949A7B"
+			tasks: [
+				{ id: "4CB1A2F8E5787AFD", type: "item", item: "rats:plague_doctorate" }
+			]
+			rewards: [
+				{
+					id: "75694C43606F092B"
+					type: "item"
+					item: "kubejs:lootbag_piece"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "0B1AC15307FA0458"
+					type: "item"
+					item: "rats:tiny_coin"
+					count: 2
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.rats.quests.118.title}"
+			x: 2.6000000000000014d
+			y: 7.6d
+			subtitle: "{ftbquests.custom_quests.rats.quests.118.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.118.description.0}"]
+			dependencies: ["5F49136B5FAA95DB"]
+			id: "59F5C697BBA7107E"
+			tasks: [{ id: "05F3A9ABEF5ECE7F", type: "item", item: "rats:radius_stick" }]
+			rewards: [
+				{
+					id: "13445260B1FF78FE"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 2
+				}
+				{ id: "196FDC27AD24E91C", type: "xp", xp: 25 }
+			]
+		}
+		{
+			x: 5.149999999999999d
+			y: 1.6500000000000004d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.rats.quests.119.subtitle}"
+			description: ["{ftbquests.custom_quests.rats.quests.119.description.0}"]
+			id: "48B6C45743FD034B"
+			tasks: [{ id: "534AFAD68CE761DC", type: "item", item: "rats:rat_trap" }]
+			rewards: [
+				{
+					id: "6970F83D743CAAC8"
+					type: "item"
+					item: "rats:tiny_coin"
+					random_bonus: 1
+				}
+				{ id: "6F22F2C5344087A1", type: "xp", xp: 50 }
+			]
+		}
+	]
+}

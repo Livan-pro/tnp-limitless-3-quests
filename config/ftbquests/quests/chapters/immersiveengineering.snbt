@@ -1,0 +1,916 @@
+{
+	id: "0000000000000547"
+	group: ""
+	order_index: 8
+	filename: "immersiveengineering"
+	title: "{ftbquests.custom_quests.immersiveengineering.title}"
+	icon: { id: "immersiveengineering:hammer", Count: 1b, tag: { Damage: 0 } }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -0.08d
+			y: -3.2d
+			width: 0.6d
+			height: 0.6d
+			rotation: 0.0d
+			image: "kubejs:textures/other/quest-tnp.png"
+			hover: ["Questline by: TNP Team, Gbergz."]
+			click: "https://www.curseforge.com/members/nexusproject/projects"
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.0.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.0.description.0}"
+			]
+			optional: true
+			id: "000000000000054E"
+			tasks: [
+				{
+					id: "000000000000054F"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+			]
+			rewards: [{ id: "00000000000008C1", type: "xp_levels", xp_levels: 5 }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.1.title}"
+			x: -3.0d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.1.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.1.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.1.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.1.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.1.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.1.description.4}"
+			]
+			id: "0000000000000550"
+			tasks: [
+				{
+					id: "0000000000000551"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27l
+				}
+			]
+			rewards: [{ id: "000000000000089A", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.2.title}"
+			x: -4.5d
+			y: -4.0d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.2.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.2.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.2.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.2.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.2.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.2.description.4}"
+			]
+			id: "0000000000000552"
+			tasks: [
+				{
+					id: "0000000000000553"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27l
+				}
+			]
+			rewards: [{ id: "000000000000089B", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.7d
+			y: -4.05d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.3.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.3.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.3.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.3.description.2}"
+			]
+			size: 1.35d
+			id: "0000000000000554"
+			tasks: [
+				{
+					id: "0000000000000555"
+					type: "item"
+					item: { id: "immersiveengineering:hammer", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "456DEB0EB3023D37", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+				{ id: "11F204A12FE34FAC", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.4.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.4.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.4.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.4.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.4.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.4.description.4}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.4.description.5}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.4.description.6}"
+			]
+			id: "0000000000000556"
+			tasks: [
+				{
+					id: "0000000000000557"
+					type: "item"
+					item: "immersiveengineering:hemp_fiber"
+				}
+				{ id: "0000000000000558", type: "item", item: "immersiveengineering:seed" }
+			]
+			rewards: [{ id: "00000000000008C0", type: "xp_levels", xp_levels: 5 }]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.5.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.5.description.0}"
+			]
+			dependencies: ["0000000000000556"]
+			id: "0000000000000559"
+			tasks: [
+				{
+					id: "000000000000055A"
+					type: "item"
+					item: "immersiveengineering:hemp_fabric"
+				}
+			]
+			rewards: [{ id: "000000000000089D", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.6.title}"
+			x: -4.5d
+			y: -3.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.6.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.6.description.0}"
+			]
+			dependencies: ["0000000000000552"]
+			id: "000000000000055B"
+			tasks: [
+				{
+					id: "000000000000055C"
+					type: "item"
+					title: "Any forge:ingots/steel"
+					item: { id: "itemfilters:tag", Count: 1b, tag: { value: "forge:ingots/steel" } }
+				}
+			]
+			rewards: [{ id: "000000000000089E", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.7.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.7.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.7.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.7.description.2}"
+			]
+			dependencies: ["0000000000000559"]
+			id: "000000000000055D"
+			tasks: [
+				{
+					id: "000000000000055E"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+				}
+			]
+			rewards: [{ id: "000000000000089F", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.8.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.8.description.0}"
+			]
+			dependencies: ["0000000000000550"]
+			id: "000000000000055F"
+			tasks: [
+				{
+					id: "0000000000000560"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+			]
+			rewards: [{ id: "00000000000008A0", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.9.title}"
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.9.description.0}"
+			]
+			dependencies: ["000000000000055F"]
+			id: "0000000000000561"
+			tasks: [
+				{
+					id: "0000000000000562"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 8l
+				}
+			]
+			rewards: [{ id: "00000000000008A1", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.10.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.10.description.0}"
+			]
+			dependencies: ["0000000000000561"]
+			id: "0000000000000565"
+			tasks: [
+				{
+					id: "0000000000000566"
+					type: "item"
+					item: "immersiveengineering:windmill_blade"
+					count: 8l
+				}
+			]
+			rewards: [{ id: "00000000000008A2", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.11.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.11.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.11.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.11.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.11.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.11.description.4}"
+			]
+			dependencies: ["0000000000000565"]
+			id: "0000000000000567"
+			tasks: [
+				{
+					id: "0000000000000568"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+			]
+			rewards: [{ id: "00000000000008A3", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.12.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.12.description.0}"
+			]
+			dependencies: ["0000000000000561"]
+			id: "0000000000000569"
+			tasks: [
+				{
+					id: "000000000000056A"
+					type: "item"
+					item: "immersiveengineering:waterwheel_segment"
+					count: 4l
+				}
+			]
+			rewards: [{ id: "00000000000008A4", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.13.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.13.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.13.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.13.description.2}"
+			]
+			dependencies: ["0000000000000569", "000000000000055B"]
+			id: "000000000000056B"
+			tasks: [
+				{
+					id: "000000000000056C"
+					type: "item"
+					item: "immersiveengineering:watermill"
+				}
+			]
+			rewards: [{ id: "00000000000008A5", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.14.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.14.description.0}"
+			]
+			id: "000000000000056F"
+			tasks: [
+				{
+					id: "0000000000000570"
+					type: "item"
+					item: { id: "immersiveengineering:wirecutter", Count: 1b, tag: { Damage: 0 } }
+				}
+			]
+			rewards: [
+				{ id: "5C5E28ADD81891DA", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+				{ id: "5FDB433E9503B766", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.15.title}"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.15.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.15.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.15.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.15.description.2}"
+			]
+			id: "0000000000000579"
+			tasks: [
+				{
+					id: "000000000000057A"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "000000000000057B"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "000000000000057C"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+			]
+			rewards: [{ id: "00000000000008A7", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.16.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.16.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.16.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.16.description.2}"
+			]
+			id: "000000000000057D"
+			tasks: [
+				{
+					id: "000000000000057E"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "000000000000057F"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+				{
+					id: "0000000000000580"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+			]
+			rewards: [{ id: "00000000000008A8", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.17.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.17.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.17.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.17.description.2}"
+			]
+			dependencies: ["0000000000000589"]
+			id: "0000000000000581"
+			tasks: [
+				{ id: "0000000000000582", type: "item", item: "immersiveengineering:dynamo" }
+			]
+			rewards: [{ id: "00000000000008A9", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.18.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.18.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.18.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.18.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.18.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.18.description.4}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.18.description.5}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.18.description.6}"
+			]
+			dependencies: ["000000000000056F"]
+			id: "0000000000000583"
+			tasks: [
+				{
+					id: "0000000000000584"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
+			rewards: [{ id: "00000000000008AA", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.19.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.19.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.19.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.19.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.19.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.19.description.4}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.19.description.5}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.19.description.6}"
+			]
+			dependencies: ["000000000000056F"]
+			id: "0000000000000585"
+			tasks: [
+				{
+					id: "0000000000000586"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+			]
+			rewards: [{ id: "00000000000008AB", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.20.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.20.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.20.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.20.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.20.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.20.description.4}"
+			]
+			dependencies: ["000000000000056F"]
+			id: "0000000000000587"
+			tasks: [
+				{
+					id: "0000000000000588"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+			]
+			rewards: [{ id: "00000000000008AC", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.21.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.21.description.0}"
+			]
+			dependencies: ["0000000000000583"]
+			id: "0000000000000589"
+			tasks: [
+				{ id: "000000000000058A", type: "item", item: "immersiveengineering:coil_lv" }
+			]
+			rewards: [{ id: "00000000000008AD", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.22.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.22.description.0}"
+			]
+			dependencies: ["0000000000000583"]
+			id: "0000000000000591"
+			tasks: [
+				{
+					id: "0000000000000592"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					count: 4l
+				}
+			]
+			rewards: [{ id: "00000000000008AE", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.23.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.23.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.23.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.23.description.2}"
+			]
+			dependencies: ["0000000000000585"]
+			id: "0000000000000593"
+			tasks: [
+				{
+					id: "0000000000000594"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					count: 4l
+				}
+			]
+			rewards: [{ id: "00000000000008AF", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.24.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.24.description.0}"
+			]
+			dependencies: ["0000000000000561"]
+			id: "0000000000000597"
+			tasks: [
+				{
+					id: "0000000000000598"
+					type: "item"
+					item: "immersiveengineering:workbench"
+				}
+			]
+			rewards: [{ id: "00000000000008B0", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.25.title}"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.25.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.25.description.0}"
+			]
+			dependencies: ["0000000000000597"]
+			id: "00000000000005A7"
+			tasks: [
+				{
+					id: "00000000000005A8"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: { blueprint: "molds" }
+					}
+				}
+			]
+			rewards: [{ id: "00000000000008B1", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.26.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.26.description.0}"
+			]
+			dependencies: ["0000000000000597"]
+			id: "00000000000005A9"
+			tasks: [
+				{
+					id: "00000000000005AA"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "0000000000000756"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "0000000000000757"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "0000000000000758"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+			rewards: [{ id: "00000000000008B2", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.27.title}"
+			x: -5.5d
+			y: -4.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.27.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.27.description.0}"
+			]
+			dependencies: ["0000000000000552"]
+			id: "00000000000005B1"
+			tasks: [
+				{
+					id: "00000000000005B2"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27l
+				}
+				{ id: "00000000000005B3", type: "item", item: "minecraft:hopper" }
+			]
+			rewards: [{ id: "00000000000008B3", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.28.title}"
+			x: -5.5d
+			y: -5.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.28.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.28.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.28.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.28.description.2}"
+			]
+			dependencies: ["00000000000005B1", "00000000000005B8"]
+			id: "00000000000005B6"
+			tasks: [
+				{
+					id: "00000000000005B7"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+					count: 2l
+				}
+			]
+			rewards: [{ id: "00000000000008B4", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.29.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.29.description.0}"
+			]
+			dependencies: ["0000000000000589"]
+			id: "00000000000005B8"
+			tasks: [
+				{
+					id: "00000000000005B9"
+					type: "item"
+					item: "immersiveengineering:furnace_heater"
+				}
+			]
+			rewards: [{ id: "00000000000008B5", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.30.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.30.description.0}"
+			]
+			dependencies: ["0000000000000561"]
+			id: "00000000000005BA"
+			tasks: [
+				{
+					id: "00000000000005BB"
+					type: "item"
+					item: "immersiveengineering:capacitor_lv"
+				}
+			]
+			rewards: [{ id: "00000000000008B6", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.31.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.31.description.0}"
+			]
+			dependencies: ["0000000000000561"]
+			id: "00000000000005BC"
+			tasks: [
+				{
+					id: "00000000000005BD"
+					type: "item"
+					item: "immersiveengineering:capacitor_mv"
+				}
+			]
+			rewards: [{ id: "00000000000008B7", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.32.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.32.description.0}"
+			]
+			dependencies: ["0000000000000561"]
+			id: "00000000000005BE"
+			tasks: [
+				{
+					id: "00000000000005BF"
+					type: "item"
+					item: "immersiveengineering:capacitor_hv"
+				}
+			]
+			rewards: [{ id: "00000000000008B8", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.33.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.33.description.0}"
+			]
+			optional: true
+			id: "00000000000005C0"
+			tasks: [
+				{
+					id: "00000000000005C1"
+					type: "item"
+					item: "immersiveengineering:voltmeter"
+				}
+			]
+			rewards: [
+				{ id: "000000000000107D", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+				{ id: "000000000000107E", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.34.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.34.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.34.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.34.description.2}"
+			]
+			dependencies: ["0000000000000589", "0000000000000561"]
+			id: "00000000000005C2"
+			tasks: [
+				{
+					id: "00000000000005C3"
+					type: "item"
+					item: "immersiveengineering:charging_station"
+				}
+			]
+			rewards: [{ id: "00000000000008BA", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.35.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.35.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.35.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.35.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.35.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.35.description.4}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.35.description.5}"
+			]
+			dependencies: ["0000000000000589"]
+			id: "00000000000005C4"
+			tasks: [
+				{
+					id: "00000000000005C5"
+					type: "item"
+					item: "immersiveengineering:thermoelectric_generator"
+				}
+			]
+			rewards: [{ id: "00000000000008BB", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.36.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.36.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.36.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.36.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.36.description.3}"
+			]
+			dependencies: ["0000000000000597"]
+			optional: true
+			id: "00000000000005C6"
+			tasks: [
+				{ id: "00000000000005C7", type: "item", item: "immersiveengineering:cloche" }
+			]
+			rewards: [{ id: "00000000000008BC", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.37.title}"
+			x: -3.0d
+			y: -5.5d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.37.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.37.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.37.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.37.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.37.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.37.description.4}"
+			]
+			id: "00000000000005C8"
+			tasks: [
+				{
+					id: "00000000000005C9"
+					type: "item"
+					item: "immersiveengineering:alloybrick"
+					count: 8l
+				}
+			]
+			rewards: [{ id: "00000000000008BD", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.38.title}"
+			x: -1.0d
+			y: -7.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.38.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.38.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.38.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.38.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.38.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.38.description.4}"
+			]
+			dependencies: ["000000000000055B"]
+			id: "00000000000005CA"
+			tasks: [
+				{
+					id: "00000000000005CD"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2l
+				}
+				{
+					id: "00000000000005CE"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{ id: "00000000000005CF", type: "item", item: "minecraft:piston" }
+				{
+					id: "00000000000005D0"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "00000000000005D1"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2l
+				}
+			]
+			rewards: [{ id: "00000000000008BE", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.immersiveengineering.quests.39.title}"
+			x: -1.0d
+			y: -6.5d
+			subtitle: "{ftbquests.custom_quests.immersiveengineering.quests.39.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.immersiveengineering.quests.39.description.0}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.39.description.1}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.39.description.2}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.39.description.3}"
+				"{ftbquests.custom_quests.immersiveengineering.quests.39.description.4}"
+			]
+			dependencies: ["000000000000055B"]
+			id: "00000000000005D2"
+			tasks: [
+				{
+					id: "00000000000005D4"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10l
+				}
+				{
+					id: "00000000000005D5"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10l
+				}
+				{ id: "00000000000005D6", type: "item", item: "minecraft:hopper", count: 9l }
+				{
+					id: "00000000000005D7"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8l
+				}
+				{
+					id: "00000000000005D8"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [{ id: "00000000000008BF", type: "item", item: "lootbagmod:lootbag" }]
+		}
+	]
+}

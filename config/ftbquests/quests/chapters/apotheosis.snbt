@@ -1,0 +1,1332 @@
+{
+	id: "6884D12F2D01F022"
+	group: ""
+	order_index: 19
+	filename: "apotheosis"
+	title: "{ftbquests.custom_quests.apotheosis.title}"
+	icon: "apotheosis:boss_summoner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{ftbquests.custom_quests.apotheosis.quests.0.title}"
+			icon: "minecraft:enchanting_table"
+			x: 1.6d
+			y: -1.0d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.0.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.0.description.0}"]
+			size: 1.25d
+			id: "6BB1BA0D61EDE6C8"
+			tasks: [
+				{ id: "23678F433023B521", type: "item", item: "minecraft:enchanting_table" }
+			]
+			rewards: [
+				{
+					id: "09D4EFA50308F224"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "6E6E3E463FCB1658", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 2.85d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.1.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.1.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.1.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.1.description.2}"
+			]
+			id: "67B50DA0BA94CBDB"
+			tasks: [
+				{
+					id: "28FE40DF1A5FEDD0"
+					type: "advancement"
+					title: "Eterna, Quanta, Arcana"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/enchanting_stats"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5EF99F7BE75F7EC5"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "4A84A475218D8CEC", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.2.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.2.description.0}"]
+			id: "6DFBB48BFCCF9363"
+			tasks: [
+				{
+					id: "72FB053A23FD5B56"
+					type: "advancement"
+					title: "Begone, Flux"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/quanta0"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "067DA3B50E0A8552"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "45EE80738CA34B14", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 5.172499999999999d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.3.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.3.description.0}"]
+			size: 1.13d
+			id: "644A2E74D76DFD05"
+			tasks: [
+				{
+					id: "1A4A0B0960ACAAE1"
+					type: "advancement"
+					title: "Stable Power"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/max_stable"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "3156CC25A41C6461", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "60DB8C175CEED995", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.15d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.4.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.4.description.0}"]
+			id: "33D2DAD5C53B9E8F"
+			tasks: [
+				{
+					id: "16F7F5F52D3CF93B"
+					type: "advancement"
+					title: "Magical Energy"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/arcana50"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "620132673F58AB9C"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "36D9407041D4C93C", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			x: 5.15d
+			y: -2.15d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.5.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.5.description.0}"]
+			id: "479B7B3549BCC19C"
+			tasks: [
+				{
+					id: "7F573D7B0ADDB906"
+					type: "advancement"
+					title: "Arcane Power"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/arcana100"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3AC51C6286096981"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "4EB72585D0F8E28B", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.apotheosis.quests.6.title}"
+			x: 4.0d
+			y: 0.1499999999999999d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.6.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.6.description.0}"]
+			id: "37EB67A8865A5D32"
+			tasks: [
+				{
+					id: "6C38CEFA6C2D95FB"
+					type: "advancement"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/quanta50"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1B03A9F0A913174E"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "74E81FB0875C7F40", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 5.15d
+			y: 0.1499999999999999d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.7.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.7.description.0}"]
+			id: "3B944AFAE0B59702"
+			tasks: [
+				{
+					id: "40EC02B2C4631A51"
+					type: "advancement"
+					title: "Rolling the Dice"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/quanta100"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0B35156E542F4132"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "2D045D14ECE0294C", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			x: 6.329999999999999d
+			y: 0.1499999999999999d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.8.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.8.description.0}"]
+			size: 1.15d
+			id: "754FF30F14D8F43F"
+			tasks: [
+				{
+					id: "49B9867A60EDD34E"
+					type: "advancement"
+					title: "Maximum Strength"
+					icon: "minecraft:experience_bottle"
+					advancement: "apotheosis:enchanting/max_stats"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "34053C2C96D9B30F", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "10F8D85E4DFBA727", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.apotheosis.quests.9.title}"
+			icon: "apotheosis:seashelf"
+			x: 4.0d
+			y: -3.3d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.9.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.9.description.0}"]
+			id: "7CD817F8D83ECD78"
+			tasks: [{ id: "1616F742B917A485", type: "item", item: "apotheosis:seashelf" }]
+			rewards: [
+				{
+					id: "388501AA875026B9"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "69686E66DB5D17A6", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 5.1225d
+			y: -3.3d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.10.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.10.description.0}"]
+			size: 1.15d
+			id: "721C5E61D92A96E9"
+			tasks: [
+				{
+					id: "7CB128E01A04F027"
+					type: "advancement"
+					title: "Sea-Infused"
+					icon: "apotheosis:heart_seashelf"
+					advancement: "apotheosis:enchanting/upgrade_seashelf"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1BEDFCE3580C9D64"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "58F63F0F851D7B67", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.apotheosis.quests.11.title}"
+			x: 4.0d
+			y: -4.45d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.11.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.11.description.0}"]
+			size: 1.15d
+			id: "36DE038A41E3A7E3"
+			tasks: [{ id: "6956D0E9E5FE41C5", type: "item", item: "apotheosis:endshelf" }]
+			rewards: [
+				{
+					id: "3FD2193E7865B013"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "7462AA4C1E82DF42", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.apotheosis.quests.12.title}"
+			x: 4.0d
+			y: -5.6d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.12.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.12.description.0}"]
+			id: "76FD76ECB845A709"
+			tasks: [{ id: "73B589C5D25BF927", type: "item", item: "apotheosis:hellshelf" }]
+			rewards: [
+				{
+					id: "3877ABDF4A641228"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "3FDA4AFF8F19B583", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 5.116d
+			y: -4.4464999999999995d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.13.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.13.description.0}"]
+			size: 1.13d
+			id: "4CBB9D4ABEEC08A3"
+			tasks: [
+				{
+					id: "0CCE3D7A033B4A7F"
+					type: "advancement"
+					title: "Maximum Strength"
+					icon: "apotheosis:draconic_endshelf"
+					advancement: "apotheosis:enchanting/upgrade_endshelf"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "5CD18FE871BDD0CE", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "74CE14D1746A0907", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 5.1225d
+			y: -5.6d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.14.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.14.description.0}"]
+			size: 1.15d
+			id: "1E06DAFBDDDC655C"
+			tasks: [
+				{
+					id: "7AEBAEF9727C29F2"
+					type: "advancement"
+					title: "Hell-Infused"
+					icon: "apotheosis:blazing_hellshelf"
+					advancement: "apotheosis:enchanting/upgrade_hellshelf"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "40A6CDC9C2D68748"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "3D2C7024A68A26DE", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.apotheosis.quests.15.title}"
+			x: 2.85d
+			y: -4.45d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.15.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.15.description.0}"]
+			size: 1.15d
+			id: "492F94B999E4DD10"
+			tasks: [
+				{
+					id: "7020CF7FFE125A46"
+					type: "item"
+					title: "Any Bookshelf"
+					icon: "minecraft:bookshelf"
+					item: { id: "itemfilters:tag", Count: 1b, tag: { value: "forge:bookshelves" } }
+				}
+			]
+			rewards: [
+				{ id: "031E1D30EE6541C9", type: "item", item: "kubejs:lootbag_piece", count: 2 }
+				{ id: "0A65E4D7AC306C09", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.2999999999999998d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.16.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.16.description.0}"]
+			id: "0B6CAB9D5E8EDCED"
+			tasks: [
+				{
+					id: "3C1626D67D02FB5F"
+					type: "advancement"
+					title: "Delving into Magic"
+					icon: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: { StoredEnchantments: [{ lvl: 2s, id: "minecraft:protection" }] }
+					}
+					advancement: "apotheosis:enchanting/45ench"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "61F77A6980CC4DBC"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 5.15d
+			y: 1.2999999999999998d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.17.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.17.description.0}"]
+			id: "4B7E0692F7ED5C2C"
+			tasks: [
+				{
+					id: "654CC46616F4F123"
+					type: "advancement"
+					title: "Enchanting the Enchanter"
+					icon: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: { StoredEnchantments: [{ lvl: 3s, id: "minecraft:protection" }] }
+					}
+					advancement: "apotheosis:enchanting/60ench"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1BEA46F151461451"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 6.35d
+			y: 1.2999999999999998d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.18.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.18.description.0}"]
+			id: "3E73B920AA095857"
+			tasks: [
+				{
+					id: "23ACD00335693E1A"
+					type: "advancement"
+					title: "Dark Magic"
+					icon: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: { StoredEnchantments: [{ lvl: 4s, id: "minecraft:protection" }] }
+					}
+					advancement: "apotheosis:enchanting/80ench"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "7C86585EAC5843E7"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 7.594999999999999d
+			y: 1.2999999999999998d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.19.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.19.description.0}"]
+			size: 1.17d
+			id: "78F955641D6E47FD"
+			tasks: [
+				{
+					id: "648141AD997943B0"
+					type: "advancement"
+					title: "The Power of Dragons"
+					icon: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: { StoredEnchantments: [{ lvl: 5s, id: "minecraft:protection" }] }
+					}
+					advancement: "apotheosis:enchanting/100ench"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "252192BE4F0141D2", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "57C741A05EFF9851", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 2.85d
+			y: 1.2999999999999998d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.20.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.20.description.0}"]
+			id: "52C5A0EBE0397395"
+			tasks: [
+				{
+					id: "6519426739238735"
+					type: "advancement"
+					title: "Baby Steps..."
+					icon: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: { StoredEnchantments: [{ lvl: 1s, id: "minecraft:protection" }] }
+					}
+					advancement: "apotheosis:enchanting/30ench"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3670862EF43AB3D1"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.apotheosis.quests.21.title}"
+			x: 2.85d
+			y: 2.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.21.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.21.description.0}"]
+			id: "0A1E6A1C5CA60E72"
+			tasks: [
+				{ id: "78D6781B24034794", type: "item", item: "apotheosis:prismatic_altar" }
+			]
+			rewards: [
+				{
+					id: "30D57CB634A8E198"
+					type: "loot"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "68772C56C9DDDF17", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 8.5d
+			y: -3.05d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.22.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.22.description.0}"]
+			size: 1.15d
+			id: "578694A35A2ED528"
+			tasks: [
+				{
+					id: "5ABEC7103695FBAE"
+					type: "advancement"
+					title: "A Stunning Fixation"
+					icon: { id: "minecraft:wooden_axe", Count: 1b, tag: { Damage: 0 } }
+					advancement: "apotheosis:affix/root"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "705C5B5A8FEB4CB9"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 9.65d
+			y: -3.55d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.23.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.23.description.0}"]
+			id: "169AB6DA213C59D3"
+			tasks: [
+				{
+					id: "1A8C00CD847CE598"
+					type: "advancement"
+					title: "One Man's Trash"
+					icon: { id: "minecraft:wooden_sword", Count: 1b, tag: { Damage: 0 } }
+					advancement: "apotheosis:affix/common"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "77623EB5DE69040E", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+				{ id: "26EF6FE13F6D3509", type: "xp_levels", xp_levels: 3 }
+			]
+		}
+		{
+			x: 9.672499999999998d
+			y: -2.4825d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.24.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.24.description.0}"]
+			size: 1.15d
+			id: "40795CD9BF21C0AF"
+			tasks: [
+				{
+					id: "1C3895328D206DA3"
+					type: "advancement"
+					title: "I Got Deals"
+					icon: "minecraft:emerald"
+					advancement: "apotheosis:affix/merchant"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2EAEA1DC3F989F07"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 10.8d
+			y: -3.55d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.25.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.25.description.0}"]
+			id: "5BCD5AFC309B0494"
+			tasks: [
+				{
+					id: "2DAC656A5B8719FA"
+					type: "advancement"
+					title: "Not Quite Common"
+					icon: { id: "minecraft:stone_sword", Count: 1b, tag: { Damage: 0 } }
+					advancement: "apotheosis:affix/uncommon"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "6A231B1455C37B46"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.95d
+			y: -3.55d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.26.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.26.description.0}"]
+			id: "64B1C67BDD134D7F"
+			tasks: [
+				{
+					id: "2B8219515FC1FBB2"
+					type: "advancement"
+					title: "It Certainly Seems Rare..."
+					icon: { id: "minecraft:golden_sword", Count: 1b, tag: { Damage: 0 } }
+					advancement: "apotheosis:affix/rare"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "33F5AD4115BC381F"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "74B0E7C5D50F0233", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 13.1d
+			y: -3.55d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.27.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.27.description.0}"]
+			id: "74FF118D6221C7F1"
+			tasks: [
+				{
+					id: "238FEB0D6CD4A1DD"
+					type: "advancement"
+					title: "Epic!"
+					icon: { id: "minecraft:diamond_sword", Count: 1b, tag: { Damage: 0 } }
+					advancement: "apotheosis:affix/epic"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "63B5A7610F43A2C6"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "1D573EFF540FD05D", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 14.25d
+			y: -3.55d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.28.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.28.description.0}"]
+			size: 1.15d
+			id: "79C1926AD98B1436"
+			tasks: [
+				{
+					id: "655CC4FEADB44A2E"
+					type: "advancement"
+					title: "Titan-Forged"
+					icon: {
+						id: "minecraft:diamond_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							AS_Amulet_Holder: [I; -331367088, 145835035, -1269327375, 980488215]
+							Damage: 0
+							Enchantments: [{ lvl: 1s, id: "minecraft:sharpness" }]
+						}
+					}
+					advancement: "apotheosis:affix/mythic"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "78982EF53E554335", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "0DA55D0454CE429C", type: "xp_levels", xp_levels: 3 }
+			]
+		}
+		{
+			x: 15.45d
+			y: -3.55d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.29.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.29.description.0}"]
+			size: 1.2d
+			optional: true
+			id: "1F636EF54260E988"
+			tasks: [
+				{
+					id: "04587AE64A4B593E"
+					type: "advancement"
+					title: "Lost Treasures of the Gods"
+					icon: {
+						id: "minecraft:diamond_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							"quark:RuneAttached": 1b
+							Enchantments: [{ lvl: 4s, id: "minecraft:sharpness" }]
+							"quark:RuneColor": { id: "quark:cyan_rune", Count: 1b }
+							AS_Amulet_Holder: [I; -331367088, 145835035, -1269327375, 980488215]
+							Damage: 0
+						}
+					}
+					advancement: "apotheosis:affix/ancient"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "76ED31A2171C31B3", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "4D883C6306A5CE39", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 9.7d
+			y: -1.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.30.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.30.description.0}"]
+			id: "6C7D030BFF57E4CD"
+			tasks: [
+				{
+					id: "1110F59BF91CFC18"
+					type: "advancement"
+					title: "How'd You Get This?"
+					icon: "minecraft:skeleton_skull"
+					advancement: "apotheosis:affix/random"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "613AAB91899AC0D1"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "099EC50B35E69F57", type: "xp_levels", xp_levels: 1 }
+			]
+		}
+		{
+			x: 10.8d
+			y: -1.45d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.31.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.31.description.0}"]
+			id: "28FEF1E2971E8BAF"
+			tasks: [
+				{
+					id: "22CC1E2C242A7EB3"
+					type: "advancement"
+					title: "He Wasn't So Strong"
+					icon: "minecraft:zombie_head"
+					advancement: "apotheosis:affix/boss"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "4D061C47F5DA850A"
+					type: "random"
+					title: "Random Reward"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "0324BBE80DA9E0A5", type: "xp_levels", xp_levels: 2 }
+			]
+		}
+		{
+			x: 9.65d
+			y: -4.65d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.32.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.32.description.0}"]
+			id: "26091982672E1F50"
+			tasks: [
+				{
+					id: "60C7350AAA099840"
+					type: "advancement"
+					title: "I Found It Underground"
+					icon: "quark:oak_chest"
+					advancement: "apotheosis:affix/chests"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "606876EF13BE89C1"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			icon: "ravageandcabbage:cabbager_spawn_egg"
+			x: 8.8d
+			y: 3.75d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.33.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.33.description.0}"]
+			id: "36B85F1E6D74175A"
+			tasks: [
+				{
+					id: "795EB876824E2B55"
+					type: "advancement"
+					title: "Captured"
+					icon: "exoticbirds:ostrich_spawn_egg"
+					advancement: "apotheosis:spawner/capturing"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5B8324D0E4392D3E"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 8.8d
+			y: 4.800000000000001d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.34.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.34.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.34.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.34.description.2}"
+				"{ftbquests.custom_quests.apotheosis.quests.34.description.3}"
+				"{ftbquests.custom_quests.apotheosis.quests.34.description.4}"
+				"{ftbquests.custom_quests.apotheosis.quests.34.description.5}"
+				"{ftbquests.custom_quests.apotheosis.quests.34.description.6}"
+			]
+			id: "54AAAC151C6E9840"
+			tasks: [
+				{
+					id: "6A1DE456A7D9A1AA"
+					type: "advancement"
+					title: "Spawner Harvester"
+					icon: "minecraft:spawner"
+					advancement: "apotheosis:spawner/spawner"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "6B4D2B32C46170CE"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "63BD129D58FAD7BA", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 9.95d
+			y: 4.800000000000001d
+			shape: "rsquare"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.35.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.35.description.0}"]
+			id: "44057BD9A1909C06"
+			tasks: [
+				{
+					id: "12ADB01D87C9E0CD"
+					type: "advancement"
+					title: "Spawner Modifier"
+					icon: "minecraft:sugar"
+					advancement: "apotheosis:spawner/modifier"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1ED99A4BA0666D3C"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.05d
+			y: 4.800000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.36.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.36.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.36.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.36.description.2}"
+			]
+			size: 1.2d
+			id: "11D59DFE1730CF36"
+			tasks: [
+				{
+					id: "6B76C84E8B488AB3"
+					type: "advancement"
+					title: "Time-warped Spawner"
+					icon: "minecraft:clock"
+					advancement: "apotheosis:spawner/maxdelay"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "229B72FD3FDC1859"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.059999999999999d
+			y: 3.66d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.37.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.37.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.37.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.37.description.2}"
+			]
+			size: 1.2d
+			id: "793D87CAFDDF26B5"
+			tasks: [
+				{
+					id: "0FFE7386C073DAD5"
+					type: "advancement"
+					title: "Spawning Speed"
+					icon: "minecraft:sugar"
+					advancement: "apotheosis:spawner/mindelay"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "138DC3A69717F773"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.059999999999999d
+			y: 2.5199999999999996d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.38.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.38.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.38.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.38.description.2}"
+			]
+			size: 1.2d
+			id: "30BBBB933C950E3D"
+			tasks: [
+				{
+					id: "1D42CDC6E098398C"
+					type: "advancement"
+					title: "Engineered Spawners"
+					icon: "minecraft:comparator"
+					advancement: "apotheosis:spawner/redstone"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1FCBEE3097975E1C"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.059999999999999d
+			y: 1.38d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.39.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.39.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.39.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.39.description.2}"
+			]
+			size: 1.2d
+			id: "5553D59A00FC6EE8"
+			tasks: [
+				{
+					id: "14C19B05A7468DB5"
+					type: "advancement"
+					title: "Mobs for Miles"
+					icon: "minecraft:blaze_rod"
+					advancement: "apotheosis:spawner/spawnrange"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "68ACCF7A4D697128"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.059999999999999d
+			y: 5.9399999999999995d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.40.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.40.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.40.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.40.description.2}"
+			]
+			size: 1.2d
+			id: "78D30872F4B6ADDE"
+			tasks: [
+				{
+					id: "154A6DD2C57E96EA"
+					type: "advancement"
+					title: "Creating a Horde"
+					icon: "minecraft:ghast_tear"
+					advancement: "apotheosis:spawner/nearbyents"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "06678C7FA61CEFA1"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.05d
+			y: 7.050000000000001d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.41.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.41.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.41.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.41.description.2}"
+			]
+			size: 1.2d
+			id: "54A203EF68BAEF6D"
+			tasks: [
+				{
+					id: "7D24F1525E9078AD"
+					type: "advancement"
+					title: "Far from the Fight"
+					icon: "minecraft:prismarine_crystals"
+					advancement: "apotheosis:spawner/playerrange"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "6515551FD8DC8E08"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 11.05d
+			y: 8.2d
+			shape: "hexagon"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.42.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.42.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.42.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.42.description.2}"
+			]
+			size: 1.2d
+			id: "714685826673B58C"
+			tasks: [
+				{
+					id: "026803DC0E0C3810"
+					type: "advancement"
+					title: "Massive Spawning"
+					icon: "minecraft:fermented_spider_eye"
+					advancement: "apotheosis:spawner/spawncount"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "09AA8529C42507A7"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+			]
+		}
+		{
+			x: 12.172499999999998d
+			y: 4.7574999999999985d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.43.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.43.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.43.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.43.description.2}"
+			]
+			size: 1.15d
+			id: "4A5DCAE78805124E"
+			tasks: [
+				{
+					id: "46133C8F9B9F2D2C"
+					type: "advancement"
+					title: "Unchecked Spawning"
+					icon: "minecraft:dragon_egg"
+					advancement: "apotheosis:spawner/conditions"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "75F7E958198111C6", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "41E9FD887AB1E5AE", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 13.415d
+			y: 4.725d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.44.subtitle}"
+			description: ["{ftbquests.custom_quests.apotheosis.quests.44.description.0}"]
+			size: 1.23d
+			id: "607743327D5B0C25"
+			tasks: [
+				{
+					id: "7FFA217C0C633054"
+					type: "advancement"
+					title: "The Ultimate Spawner"
+					icon: {
+						id: "minecraft:spawner"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Enchantments: [{ lvl: 3s, id: "apotheosis:bane_of_illagers" }]
+						}
+					}
+					advancement: "apotheosis:spawner/ultimate_spawner"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2030B3818DAD52BA"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "3F3F75A3D3AF1401", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "7D20779BE4F1FB92", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 12.2d
+			y: 5.9d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.45.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.45.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.45.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.45.description.2}"
+			]
+			size: 1.2d
+			id: "30D62072FA6D3A5C"
+			tasks: [
+				{
+					id: "381A92156542A19C"
+					type: "advancement"
+					title: "An Unlimited Army"
+					icon: "minecraft:chorus_fruit"
+					advancement: "apotheosis:spawner/spawncap"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2D094D0D1BD86309"
+					type: "random"
+					icon: { id: "botania:dice", Count: 1b, tag: {  } }
+					table_id: 6166930144693596049l
+				}
+				{ id: "3608FB80CD651BB0", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: 12.2d
+			y: 7.050000000000001d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.apotheosis.quests.46.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.apotheosis.quests.46.description.0}"
+				"{ftbquests.custom_quests.apotheosis.quests.46.description.1}"
+				"{ftbquests.custom_quests.apotheosis.quests.46.description.2}"
+			]
+			size: 1.2d
+			id: "5A4E6F3EB67DDD99"
+			tasks: [
+				{
+					id: "7D8C345CE858E098"
+					type: "advancement"
+					title: "Factory-Ready"
+					icon: "minecraft:nether_star"
+					advancement: "apotheosis:spawner/players"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{ id: "10583ED776C5703F", type: "item", item: "lootbagmod:lootbag" }
+				{ id: "1355B921D4B87E7D", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+	]
+}

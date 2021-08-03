@@ -1,0 +1,703 @@
+{
+	id: "0000000000000113"
+	group: ""
+	order_index: 13
+	filename: "dark_utilities"
+	title: "{ftbquests.custom_quests.dark_utilities.title}"
+	icon: "darkutils:book_runelic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 1.24d
+			width: 0.6d
+			height: 0.6d
+			rotation: 0.0d
+			image: "kubejs:textures/other/quest-tnp.png"
+			hover: ["Questline by: TNP Team, Gbergz."]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "gear"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.0.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.0.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.0.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.0.description.2}"
+			]
+			size: 1.4d
+			id: "000000000000011A"
+			tasks: [
+				{ id: "000000000000011B", type: "item", item: "darkutils:blank_plate" }
+			]
+			rewards: [
+				{ id: "000000000000011D", type: "xp_levels", xp_levels: 2 }
+				{
+					id: "000000000000017A"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.1.title}"
+			x: -4.5d
+			y: 2.0d
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.1.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.1.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.1.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.1.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.1.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.1.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "000000000000011E"
+			tasks: [
+				{
+					id: "000000000000011F"
+					type: "item"
+					item: "darkutils:vector_plate"
+					count: 6l
+				}
+			]
+			rewards: [
+				{ id: "000000000000015D", type: "xp_levels", xp_levels: 5 }
+				{ id: "0000000000000166", type: "item", item: "aquaculture:treasure_chest" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.2.title}"
+			x: -4.0d
+			y: 3.0d
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.2.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.2.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.2.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.2.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.2.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.2.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000120"
+			tasks: [
+				{
+					id: "0000000000000121"
+					type: "item"
+					item: "darkutils:export_plate"
+					count: 4l
+				}
+			]
+			rewards: [
+				{ id: "000000000000015E", type: "xp_levels", xp_levels: 5 }
+				{ id: "0000000000000167", type: "item", item: "aquaculture:treasure_chest" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.3.title}"
+			x: -3.0d
+			y: 4.0d
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.3.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.3.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.3.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.3.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.3.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.3.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000122"
+			tasks: [
+				{
+					id: "0000000000000123"
+					type: "item"
+					item: "darkutils:import_plate"
+					count: 4l
+				}
+			]
+			rewards: [
+				{ id: "000000000000015F", type: "xp_levels", xp_levels: 5 }
+				{ id: "0000000000000168", type: "item", item: "aquaculture:treasure_chest" }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.4.title}"
+			x: -5.5d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.4.subtitle}"
+			description: ["{ftbquests.custom_quests.dark_utilities.quests.4.description.0}"]
+			dependencies: ["000000000000011E"]
+			size: 0.9d
+			id: "0000000000000124"
+			tasks: [
+				{
+					id: "0000000000000125"
+					type: "item"
+					item: "darkutils:vector_plate_fast"
+					count: 6l
+				}
+			]
+			rewards: [
+				{ id: "000000000000026B", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.5.title}"
+			x: -6.5d
+			y: 2.5d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.5.subtitle}"
+			description: ["{ftbquests.custom_quests.dark_utilities.quests.5.description.0}"]
+			dependencies: ["0000000000000124"]
+			size: 0.9d
+			id: "0000000000000126"
+			tasks: [
+				{
+					id: "0000000000000127"
+					type: "item"
+					item: "darkutils:vector_plate_extreme"
+					count: 6l
+				}
+			]
+			rewards: [{ id: "0000000000000165", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.6.title}"
+			x: -3.0d
+			y: 5.0d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.6.subtitle}"
+			description: ["{ftbquests.custom_quests.dark_utilities.quests.6.description.0}"]
+			dependencies: ["0000000000000122"]
+			size: 0.9d
+			id: "0000000000000128"
+			tasks: [
+				{
+					id: "0000000000000129"
+					type: "item"
+					item: "darkutils:import_plate_fast"
+					count: 4l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000263", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.7.title}"
+			x: -4.0d
+			y: 5.5d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.7.subtitle}"
+			description: ["{ftbquests.custom_quests.dark_utilities.quests.7.description.0}"]
+			dependencies: ["0000000000000128"]
+			size: 0.9d
+			id: "000000000000012A"
+			tasks: [
+				{
+					id: "000000000000012B"
+					type: "item"
+					item: "darkutils:import_plate_extreme"
+					count: 4l
+				}
+			]
+			rewards: [{ id: "0000000000000163", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.8.title}"
+			x: -5.0d
+			y: 3.5d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.8.subtitle}"
+			description: ["{ftbquests.custom_quests.dark_utilities.quests.8.description.0}"]
+			dependencies: ["0000000000000120"]
+			size: 0.9d
+			id: "000000000000012C"
+			tasks: [
+				{
+					id: "000000000000012D"
+					type: "item"
+					item: "darkutils:export_plate_fast"
+					count: 4l
+				}
+			]
+			rewards: [
+				{ id: "000000000000026A", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.9.title}"
+			x: -5.5d
+			y: 4.5d
+			shape: "octagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.9.subtitle}"
+			description: ["{ftbquests.custom_quests.dark_utilities.quests.9.description.0}"]
+			dependencies: ["000000000000012C"]
+			size: 0.9d
+			id: "000000000000012E"
+			tasks: [
+				{
+					id: "000000000000012F"
+					type: "item"
+					item: "darkutils:export_plate_extreme"
+					count: 4l
+				}
+			]
+			rewards: [{ id: "0000000000000164", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.10.title}"
+			x: 0.0d
+			y: 7.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.10.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.10.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.10.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.10.description.2}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000130"
+			tasks: [
+				{
+					id: "0000000000000131"
+					type: "item"
+					item: "darkutils:rune_damage"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000261", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.11.title}"
+			x: 1.0d
+			y: 7.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.11.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.11.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.11.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.11.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.11.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.11.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000134"
+			tasks: [
+				{
+					id: "0000000000000135"
+					type: "item"
+					item: "darkutils:rune_damage_player"
+					count: 3l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000262", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.12.title}"
+			x: 0.0d
+			y: 5.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.12.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.12.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.12.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.12.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.12.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.12.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000136"
+			tasks: [
+				{
+					id: "0000000000000169"
+					type: "item"
+					item: "darkutils:rune_glowing"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "00000000000001DE", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.13.title}"
+			x: 1.0d
+			y: 6.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.13.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.13.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.13.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.13.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.13.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.13.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000138"
+			tasks: [
+				{
+					id: "0000000000000139"
+					type: "item"
+					item: "darkutils:rune_weakness"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000241", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.14.title}"
+			x: -0.5d
+			y: 7.0d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.14.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.14.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.14.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.14.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.14.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.14.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "000000000000013A"
+			tasks: [
+				{
+					id: "000000000000013B"
+					type: "item"
+					item: "darkutils:rune_slowness"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000252", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.15.title}"
+			x: -1.0d
+			y: 6.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.15.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.15.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.15.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.15.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.15.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.15.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "000000000000013D"
+			tasks: [
+				{
+					id: "000000000000013E"
+					type: "item"
+					item: "darkutils:rune_wither"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "00000000000001F5", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.16.title}"
+			x: -0.5d
+			y: 6.0d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.16.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.16.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.16.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.16.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.16.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.16.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "000000000000013F"
+			tasks: [
+				{
+					id: "000000000000016A"
+					type: "item"
+					item: "darkutils:rune_poison"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "00000000000001DF", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.17.title}"
+			x: 0.5d
+			y: 7.0d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.17.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.17.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.17.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.17.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.17.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.17.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000145"
+			tasks: [
+				{
+					id: "0000000000000146"
+					type: "item"
+					item: "darkutils:rune_hunger"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000253", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.18.title}"
+			x: 0.0d
+			y: 6.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.18.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.18.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.18.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.18.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.18.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.18.description.4}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000155"
+			tasks: [
+				{
+					id: "0000000000000156"
+					type: "item"
+					item: "darkutils:rune_blindness"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000240", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.19.title}"
+			x: -1.0d
+			y: 7.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.19.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.19.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.19.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.19.description.2}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "0000000000000159"
+			tasks: [
+				{
+					id: "000000000000015A"
+					type: "item"
+					item: "darkutils:rune_nausea"
+					count: 2l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000260", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.20.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.20.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.20.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.20.description.2}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "000000000000015B"
+			tasks: [
+				{ id: "000000000000015C", type: "item", item: "darkutils:anchor_plate" }
+			]
+			rewards: [
+				{ id: "00000000000001DD", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.21.title}"
+			x: 0.5d
+			y: 6.0d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.21.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.21.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.21.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.21.description.2}"
+			]
+			dependencies: ["000000000000011A"]
+			id: "000000000000016B"
+			tasks: [
+				{ id: "000000000000016C", type: "item", item: "darkutils:rune_fire", count: 2l }
+			]
+			rewards: [
+				{ id: "00000000000001F4", type: "item", item: "kubejs:lootbag_piece", count: 3 }
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.22.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.22.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.22.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.22.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.22.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.22.description.4}"
+			]
+			size: 1.15d
+			id: "000000000000017B"
+			tasks: [
+				{ id: "000000000000017C", type: "item", item: "darkutils:charm_sleep" }
+			]
+			rewards: [{ id: "00000000000001DB", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.23.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.23.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.23.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.23.description.2}"
+			]
+			size: 1.15d
+			id: "000000000000017D"
+			tasks: [
+				{ id: "000000000000017E", type: "item", item: "darkutils:charm_portal" }
+			]
+			rewards: [{ id: "0000000000000184", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.24.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.24.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.24.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.24.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.24.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.24.description.4}"
+			]
+			size: 1.15d
+			id: "000000000000017F"
+			tasks: [
+				{ id: "0000000000000180", type: "item", item: "darkutils:charm_experience" }
+			]
+			rewards: [{ id: "0000000000000183", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.25.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.25.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.25.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.25.description.2}"
+			]
+			size: 1.15d
+			id: "0000000000000181"
+			tasks: [
+				{ id: "0000000000000182", type: "item", item: "darkutils:charm_gluttony" }
+			]
+			rewards: [{ id: "0000000000000185", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.26.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.26.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.26.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.26.description.2}"
+			]
+			optional: true
+			id: "0000000000000186"
+			tasks: [{ id: "0000000000000187", type: "item", item: "darkutils:item_grate" }]
+			rewards: [
+				{
+					id: "000000000000018D"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+					count: 3
+				}
+				{ id: "0000000000000287", type: "xp_levels", xp_levels: 5 }
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.27.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.27.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.27.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.27.description.2}"
+				"{ftbquests.custom_quests.dark_utilities.quests.27.description.3}"
+				"{ftbquests.custom_quests.dark_utilities.quests.27.description.4}"
+			]
+			optional: true
+			id: "0000000000000188"
+			tasks: [
+				{ id: "0000000000000189", type: "item", item: "darkutils:ender_hopper" }
+			]
+			rewards: [{ id: "000000000000018C", type: "item", item: "lootbagmod:lootbag" }]
+		}
+		{
+			title: "{ftbquests.custom_quests.dark_utilities.quests.28.title}"
+			x: -2.5d
+			y: 1.5d
+			shape: "pentagon"
+			subtitle: "{ftbquests.custom_quests.dark_utilities.quests.28.subtitle}"
+			description: [
+				"{ftbquests.custom_quests.dark_utilities.quests.28.description.0}"
+				"{ftbquests.custom_quests.dark_utilities.quests.28.description.1}"
+				"{ftbquests.custom_quests.dark_utilities.quests.28.description.2}"
+			]
+			optional: true
+			id: "000000000000018E"
+			tasks: [
+				{
+					id: "000000000000018F"
+					type: "item"
+					item: "darkutils:dark_glass"
+					count: 6l
+				}
+			]
+			rewards: [
+				{ id: "0000000000000191", type: "xp_levels", xp_levels: 5 }
+				{ id: "00000000000001CA", type: "item", item: "aquaculture:treasure_chest" }
+			]
+		}
+	]
+}
